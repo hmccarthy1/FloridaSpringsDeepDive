@@ -4,10 +4,20 @@ const {Schema} = require('mongoose');
 require('mongoose-money');
 var Money = require('moneyjs');
 
+mediaSchema = new mongoose.Schema({
+    imageURL: {
+        type: String,
+        required: true
+    },
+    Caption: {
+        type: String
+    }
+});
+
+
 const amenityReviewsSchema = new mongoose.Schema({
     reviewText: {
         type: String,
-        maxLength: 1000,
         required: true
     },
     reviewMedia: {
@@ -16,52 +26,69 @@ const amenityReviewsSchema = new mongoose.Schema({
     },
     amenityRating: {
         type: Schema.Types.Decimal128,
-        maxLength: 2
+        required: true
     },
     postingUser: {
         type: Schema.Types.ObjectId,
-        ref: 'User'
+        ref: 'User',
+        required: true
     }
 })
 
 
 const amenitySchema = new mongoose.Schema({
     amenityType: {
-        type: String,
-        required: true 
+        type: Schema.Types.ObjectId,
+        required: true,
+        ref: 'amenityTypeChoices' 
         },
     amenityDescription: {
         type: String, 
-        maxLength: 1000,
         required: true
     },
-    cost: {
-        type: Schema.Types.Money, 
+    Cost: {
+        type: String, 
         
     },
+    amenityReviews: [amenityReviewsSchema],
+    amenityMedia: [mediaSchema],
+    amenityWebsite: {
+        type: String
+    }
 
 
 });
 
 
-
+const springReviewSchema = new mongoose.Schema({
+    reviewText: {
+        type: String,
+        required: true
+    },
+    springRating: {
+        type: Schema.Types.Decimal128,
+    },
+    reviewMedia: [String],
+    postingUser: {
+        type: Schema.Types.ObjectId,
+        ref: 'User',
+        required: true
+    }
+})
 
 const springSchema = new mongoose.Schema({
     springName: {
         type: String,
-        maxLength: 100,
         unique: true,
         required: true
     },
     latitude: {
-        type: mongoose.Decimal128, 
+        type: Schema.Types.Decimal128, 
         required: true,
-        maxLength: 100
     },
     longitude: {
-        type: mongoose.Decimal128, 
+        type: Schema.Types.Decimal128, 
         required: true,
-        maxLength: 100
     },
     springState: {
         required: true,
@@ -73,12 +100,19 @@ const springSchema = new mongoose.Schema({
     },
     springDescription: {
         type: String, 
-        maxLength: 1000,
         required: true
     }, 
     amenities: [amenitySchema],
     springReviews: [springReviewSchema],
-    springMedia: [String]
+    springMedia: [mediaSchema],
+    address: {
+        type: String,
+        required: true
+    },
+    admission: {
+        type: String,
+        required: true
+    }
 
 });
 

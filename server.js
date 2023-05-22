@@ -1,6 +1,6 @@
 
 const path = require('path');
-
+const {springSeed} = require('./seed')
 const session = require('express-session');
 const routes = require('./controllers');
 const User = require('./models/User');
@@ -24,7 +24,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
-
 
 
   app.listen(PORT, () => console.log(`Now listening at ${PORT}`));
