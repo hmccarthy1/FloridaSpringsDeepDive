@@ -264,7 +264,7 @@ const springSeed = {
                             "Caption": "An RV set up at a site at Rainbow Springs"
                         },
                         {
-                            "https://res.cloudinary.com/dsvmviwkc/image/upload/v1684710673/4447692558_e1bb16b8ec_b_jzxauv.jpg",
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1684710673/4447692558_e1bb16b8ec_b_jzxauv.jpg",
                             "Caption": "A tent set up at an electric site at Rainbow Springs Campground"
                         }
                     ],
@@ -311,7 +311,51 @@ const springSeed = {
             "springCounty": "Levy",
             "springDescription": "This spring is unique in Florida. It exists in an underground crevice, with the only sunlight coming in from a circular hole in the rock formation about. The unique layout of this spring causes rays of sunlight to dance on the water in a beautiful display at the right time of day. It's also famous for the diving available here, which can offer a truly stunning look into the cave systems that span underneath the springs. If you're a snorkeler, this spring is available by appointment only, so make sure you book it before traveling! There is also an absolutely stunning garden just next door that is a must-see",
             "address": "5390 NE 180th Ave, Williston, FL 32696",
-            "admission": "Admission for snorkelers on the weekday is $18/person, and admission on the weekends/holidays is $25/person. Please note that mask, snorkel, and fins are required, so if you don't have them make sure you include rental fees in your budget. Full rental for these three items is $12/person. For divers, admission is $38/person, and full equipment rental is $45. Night Diving by appointment only."
+            "admission": "Admission for snorkelers on the weekday is $18/person, and admission on the weekends/holidays is $25/person. Please note that mask, snorkel, and fins are required, so if you don't have them make sure you include rental fees in your budget. Full rental for these three items is $12/person. For divers, admission is $38/person, and full equipment rental is $45. Night Diving by appointment only.",
+            "address": "5390 NE 180th Ave Williston, FL 32696",
+            "admission": "For snorkelers, admission mon-fri is $18/person, and admission sat & sun is $25/person. Please note that this does not include mask/snorkel/fins WHICH ARE REQUIRED in order to snorkel. Also worth noting that snorkeling Devil's den is by appointment only, and at the time of writing this the reservations are limited to 90 mins (covid).",
+            "amenities": [
+                {
+                    "amenityType" : "6464f912994a58322e8a0b7d",
+                    "amenityDescription": "Snorkeling Devil's Den is truly an amazing experience. It's formed out of a large cavernous-like structure in a rock formation, you walk down a few long flights of steps to reach the entrance to the spring itself, where the only sunlight streams in from the circular opening to the sky 20 or 30 feet above. The cavern is 120' wide, and boasts crystal-clear 72 degree water. There are several species of fish that live inside to observe, and there is quite a stunning view underwater. Worth noting that this (privatized) spring is extremely populer, especially on holidays/weekends (particularly in the summertime). Be prepared for crowds and a fair bit of noise unless you're going early in the day on a weekday off-season.",
+                    "Cost": "For snorkelers, admission mon-fri is $18/person, and admission sat & sun is $25/person. Please note that this does not include mask/snorkel/fins WHICH ARE REQUIRED in order to snorkel. Also worth noting that snorkeling Devil's den is by appointment only, and at the time of writing this the reservations are limited to 90 mins (covid). Gear rental for snorkelers is $12/person",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443503/aeae5e083dc9583c1ae6337c8e484b4c_zg5td6.jpg",
+                            "Caption": "The last flight of stairs down into Devil's Den Spring"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443580/7e17e2e44eb5c913e2c585bc05ad0145_ba4i5k.jpg",
+                            "Caption": "Light streaming in through the opening at Devli's Den"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1685929827/5933dd41591566ae191465c8816e13e0_uuvlpp.jpg",
+                            "Caption": "Night shot of Devil's Den"
+                        }
+                    ],
+                    "amenityWebsite": "http://www.devilsden.com/snorkeling.html"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b81",
+                    "amenityDescription": "Devil's Den Spring is a pretty famous dive spot due to it's unique nature and stunning views. The site is frequently used for SCUBA training, particularly for Open water certs, and occasionally night dives.",
+                    "Cost": "Base admission is $38/diver, air fills are $8/person, and full equipment rentals (mask, snorkel, fins, booties, regulator, BCD, tank, wetsuit, weights, and LED light) are $45/person. Night dives must be booked minimum 7 days in advance, and cost varies depending on season. Out of season (Nov 7 - Mar 13) it costs $10/person with a $100 minimum, and in season it costs $15/person with a $250 minimum",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1685965664/1afaaa7c8bed17ab5d620e73a62659c7_bnicja.jpg",
+                            "Caption": "A diver at Devil's Den swimming through a halo of sunlight"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1685965817/DevilsDenDiving_djvaaw.jpg",
+                            "Caption": "A group of divers training at the lower level of the entrance to Devil's Den"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1685965921/DevilsDenDiving2_skcp1q.jpg",
+                            "Caption": "A diver studying one of the ancient rock formations at Devil's Den"
+                        }
+                    ],
+                    "amenityWebsite": "http://www.devilsden.com/diving.html"
+                }
+            ]
         },
 
         // SILVER SPRINGS
