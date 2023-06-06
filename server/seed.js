@@ -354,6 +354,40 @@ const springSeed = {
                         }
                     ],
                     "amenityWebsite": "http://www.devilsden.com/diving.html"
+                },
+                {
+                    "amenityType": "647e8a58720171439903a9a9",
+                    "amenityDescription": "Hands down the best garden I've ever seen (sorry mom) - Cedar Lakes Woods & Gardens works closely with Devil's Den Springs, and it's only a 2 or 3 minute drive down the road to access. Cedar Lakes Woods & Gardens is an extremely large natural garden that was hand-crafted from 100+ year old limestone. It was built up over 30+ years by a nature-loving individual, and boats an extremely wide array of plants. The botanical garden totals 20 acres, and includes many animals such as Koi fish, a pet cat, a goose, and a 100 LB catfish name Big Ben.",
+                    "Cost": "The cost for daily admission is as follows: $12/adult (13+), $7/Child (6-13), Free for children 5 and under, and $6 for any military members. There is a discount for group rates - $11/adult for 12-25 people, and $10/adult for groups of 25 or more people",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686016468/rs_w_960_h_480_cg_true_khazr5.webp",
+                            "Caption": "A magnificent overhead shot of the gardens in all their glory"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686016370/Alexis_Adino_photo_of_falls_oaop1d.webp",
+                            "Caption": "A stunning view of one of the bridges in the gardens"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686016468/rs_w_800_cg_true_jsh9cl.webp",
+                            "Caption": "One of the man-made waterfalls in the gardens"
+                        }
+                    ],
+                    "amenityWebsite": "https://cedarlakeswoodsandgarden.com/"
+                }
+            ],
+            "springMedia": [
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686002635/Devils_Den_izvgzo.jpg",
+                    "Caption": "Entrance to Devil's Den Spring"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686002635/Devils_Den_2_uhjbgt.jpg",
+                    "Caption": "People swimming in Devil's Den"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443580/7e17e2e44eb5c913e2c585bc05ad0145_ba4i5k.jpg",
+                    "Caption": "Sunlight streaming in through Devil's Den"
                 }
             ]
         },
@@ -368,7 +402,14 @@ const springSeed = {
             "springCounty": "Marion",
             "springDescription": "This spring is famours for being the main scene in many movies including the original Tarzan, the Rheesus monkeys that inhabit the nearby islands, and the glass-bottom boat tours. It's a stunningly beautiful location, but the best areas don't allow swimming due to the glass bottom boat tours, and it's one of the more commercialized springs, so keep that in mind if you like to avoid crowds.",
             "address": "5656 E Silver Springs Blvd, Silver Springs, FL 34488",
-            "admission": "Admission is $8 per vehicle with 2-8 people, $5 for single occupant vehicles/motorcycles, $2/person for pedestrians/cyclists/etc, $4 launch fee per canoe/kayak, and $2/person for entrance to the Silver River Museum"
+            "admission": "Admission is $8 per vehicle with 2-8 people, $5 for single occupant vehicles/motorcycles, $2/person for pedestrians/cyclists/etc, $4 launch fee per canoe/kayak, and $2/person for entrance to the Silver River Museum",
+            "amenities": [
+
+                {
+
+                }
+
+            ]
         },
 
         // SILVER GLEN SPRINGS
