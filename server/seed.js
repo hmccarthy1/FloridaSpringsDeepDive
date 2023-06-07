@@ -584,7 +584,16 @@ const springSeed = {
             ],
             "springMedia": [
                 {
-                    "imageURL": ""
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686099675/ONF-Silver-Glen-DJI_0613_1_krngtz.webp",
+                    "Caption": "Aerial shot of the swimming area at Silver Glen Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686099674/Resize-1_zbjx73.jpg",
+                    "Caption": "Cozy shot of the Silver Glen head spring through a nest of palm trees"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686099674/Resize-3_wznsi8.jpg",
+                    "Caption": "Crisp photo of a beautiful section of Silver Glen Springs"
                 }
             ]
         },
@@ -599,7 +608,85 @@ const springSeed = {
             "springCounty": "Marion",
             "springDescription": "This spring in Marion county is famous for it's extensive cool rock formations under the surface, as well the abundance of crabs and suckerfish that inhabit it. There's also over 15 miles of nature trails located right at the head spring.",
             "address": "13851 FL-19, Fort McCoy, FL 32134",
-            "admission": "Admission for Salt Springs is $6.50/person"
+            "admission": "Admission for Salt Springs is $6.50/person",
+            "amenities": [
+                {
+                    "amenityType": "6464f912994a58322e8a0b7f",
+                    "amenityDescription": "Salt springs has a large campground with sites for both RVs/trailers & tent-only sites. The sites are decently shaded and a good distance away from the day-use area.",
+                    "Cost": "Cost varies depending on season and availability, but at the time of writing this it's about $40/night for tent sites, and about $115/night for a full hookup site.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686100538/RVsites_ntbbh4.jpg",
+                            "Caption": "A look at some of the full RV sites at Salt Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686100543/uploads_2F1593649719366-ow3fqadryr-a35115719567e49f0d762afb34486654_2F12E09616-99CA-489E-B89B-F81C3505FD33_rllfsr.jpg",
+                            "Caption": "A RV camper set up at Salt Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686100538/71093_pzrpep.jpg",
+                            "Caption": "A glance at the Salt Springs campground"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83581"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityDescription": "There is a small hiking trail at Salt Springs, a 2 mile round-trip experience that ends at an observation deck.",
+                    "Cost": "No additional cost, just admission to the park - $6.50/person",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686100996/5016268669_2f0f3a0da8_3k_j6xxa8.jpg",
+                            "Caption": "Entrance to Salt Springs Trail"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686100994/5016283679_c256dba8f2_3k_s3h8f1.jpg",
+                            "Caption": "Observation deck at the end of Salt Springs Trail"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686100997/5016274435_5ab6dac81c_3k_gz4pda.jpg",
+                            "Caption": "Nice view of the Salt Springs Trail"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83581"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityDescription": "Snorkeling at Salt Springs can definitely be an interesting experience. It's laden with hundreds of crabs and suckerfish, so make sure you don't get too close - the crabs can and will pinch you. The spring does have a lot of rock formations with nooks and crannies that aren't bad for freediving, but having to constantly mind the many crabs in those nooks and crannies can definitely get annoying.",
+                    "Cost": "No additional cost, just entrance to the park - $6.50/person",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686101407/orinoco-sailfin-catfish-crab-salt-springs_biupyv.jpg",
+                            "Caption": "A side-by-side photo of the suckerfish and crabs at Salt Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686101408/P4162208a_tamaxb.jpg",
+                            "Caption": "A view of the many rock formations at Salt Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686101407/719d08d2100a4229bb22ca7da0497260-Large_i8kr7f.jpg",
+                            "Caption": "Close up of the blue crabs at Salt Springs"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83581"
+                }
+
+            ],
+
+            "springMedia": [
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686101665/fseprd907282_keagsb.jpg",
+                    "Caption": "A glance at the swimming area in Salt Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686101664/Salt-Springs-swimming-area_gxfglz.jpg",
+                    "Caption": "Some of the rock formations at Salt Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686101665/Salt_Springs_-_034_m8gzhb.jpg",
+                    "Caption": "Enclosed swimming area at Salt springs"
+                }
+            ]
         },
 
         // ALEXANDER SPRINGS
