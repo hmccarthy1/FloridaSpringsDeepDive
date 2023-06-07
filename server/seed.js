@@ -406,9 +406,125 @@ const springSeed = {
             "amenities": [
 
                 {
-
+                    "amenityType": "6464f912994a58322e8a0b87",
+                    "amenityDescription": "Silver springs is famous for it's glass-bottomed boat tours. You have the ability to see all the wildlife underneath you as you cruise along the crystal-clear river, seeing several first-magnitude springs, as well as other cool sights such as statues left at the bottom of springs from the numerous movie sets Silver Springs has played host to over the years.",
+                    "Cost": "For the 30 minute tour - Adults are $13/person, seniors (55+) are $12/person, Children (6-12) are $12/person, and infants (5-) are free. \n For the 90 minute tour - Adults are $25/person, seniors (55+) are $20/person, children (6-12) are $20/person, and infants (5-) are free.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686091030/Screenshot_2023-06-06_183537_zyc5ap.png",
+                            "Caption": "A stunning view of one ot the glass bottom boats heading out for a tour"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686091025/Screenshot_2023-06-06_183639_vyofo8.png",
+                            "Caption": "An overhead shot of one of the glass bottom boats coming in to dock."
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686091028/Screenshot_2023-06-06_183601_cnndnp.png",
+                            "Caption": "A tour group enjoying the view of wildlife and springs through the glass bottom of their boat"
+                        }
+                    ],
+                    "amenityWebsite": "https://silversprings.com/glass-bottom-boats/"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityDescription": "Silver springs has several hiking trails of varying length and difficulty. Each trail offers it's own unique sights, but be aware that some of the trails are right near the tourist-y section of silver springs. I would recommend a longer trail that offers you a better chance of seeing some real nature.",
+                    "Cost": "There's no additional cost, just entrance to the park, which is $8 per vehicle with 2-8 people, $5 for single occupant vehicles/motorcycles, $2/person for pedestrians/cyclists/etc, $4 launch fee per canoe/kayak, and $2/person for entrance to the Silver River Museum",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686091780/02-top_h0qfa5.jpg",
+                            "Caption": "The entrance to Sandhill Trail"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686091780/26684649_Semj1fhms_kXzLmiLWdXidt18q0ABlZBh_vposjt.jpg",
+                            "Caption": "A lovely picture of a bridge over the water on one of the nature trails at Silver Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686091780/62414903_390945591522508_5553848345333596160_n_bvndak.jpg",
+                            "Caption": "Stunning view of one of the boardwalks through a nature trail in full sunlight"
+                        },
+                       
+                    ],
+                    "amenityWebsite": "https://silversprings.com/hiking/"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityDescription": "Whether you prefer kayaks, canoes, or paddleboards, Silver Springs has you covered. The trip from the head springs to where Silver Springs flows into the Ocklawaha River is about 5 miles, with crystal-clear water until the very last stretch, where the river water begins to blend with the spring water. You can choose to paddle all the way upstream and have a shuttle take you back, or you can navigate smaller routes instead and paddle back yourself.",
+                    "Cost": "The cost can vary depending on season and demand, but at the time of writing this the kayaks go for about $30/hr, the stand-up paddleboards go for about $35/hr, and the 2-person canoes go for about $45/hour.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686092620/kayak-silver-springs-34_gjgwln.jpg",
+                            "Caption": "Some manatees tagging along for the ride"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686092518/Silver-Springs-Paddling_fmcx6r.jpg",
+                            "Caption": "Some paddlers enjoying a moment of quiet observation of a manatee"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686092615/Tours-Silver-Springs_m4kwhj.jpg",
+                            "Caption": "A stand-up paddleboarder enjoying the crystal-clear waters of Silver Springs"
+                        }
+                    ],
+                    "amenityWebsite": "https://silversprings.com/paddling/"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b83",
+                    "amenityDescription": "Silver Springs has quite a variety of natural wildlife, and that includes plenty of birds! They have a great limpkin population, as well as many other types of birds such as hawks, eagles, owls, and mallards, and plenty of wild turkey.",
+                    "Cost": "No additional cost for bird watching - just the normal park admission, which is $8 per vehicle with 2-8 people, $5 for single occupant vehicles/motorcycles, $2/person for pedestrians/cyclists/etc, $4 launch fee per canoe/kayak, and $2/person for entrance to the Silver River Museum",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686093178/Wood-Duck-Wildlife-at-Silver-Spring-768x384_sl1dtg.jpg",
+                            "Caption": "A vividly colored wood duck"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686093178/Great-egret-Wildlife-at-Silver-Spring-768x385_laysv4.jpg",
+                            "Caption": "A snow-white Great Egret fanning it's wings"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686093178/Bald-eagle-Wildlife-at-Silver-Spring-768x384_zdolh9.jpg",
+                            "Caption": "America incarnate"
+                        }
+                    ],
+                    "amenityWebsite": "https://silversprings.com/wildlife-birding/"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b7f",
+                    "amenityDescription": "Silver Springs offers a wide variety of camping options - from cabins to RVs to primitive tent sites. Camping here offers the unique ability to see some of Silver Springs best attractions away from the large tourist crowds. Sites can be in high demand, particularly in the summer and around holidays, so make sure you book early if you want to spend a night or two camping at Silver Springs.",
+                    "Cost": "Cost varies depending on season and demand, but cabins are around $110/night, and normal tent sites are about $24/night. Call for pricing on primtive and group primitive sites",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686094008/RV-Sites-at-Silver-Springs-State-Park-1_e8n1ah.jpg",
+                            "Caption": "A beautiful RV site at Silver Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686094005/fl-fea-florida-rambler-state-park-cabins-20170506_m36gfn.jpg",
+                            "Caption": "A rustic front porch from a Cabin site at Silver Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686094007/Primative-Camping-Silver-Springs_kkdbxt.jpg",
+                            "Caption": "A primitive tent site at Silver Springs"
+                        }
+                    ],
+                    "amenityWebsite": "https://silversprings.com/camping/"
                 }
 
+            ],
+            "springMedia": [
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686097609/Photo_1_Silver_Spring_Main_air_2010_vunkd5.jpg",
+                    "Caption": "An overhead shot of the area the glass bottom boats launch from"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686097609/clear-kayak-at-Silver-Springs-State-Park-e1666317634712-698x700_ygm1dd.jpg",
+                    "Caption": "A beautiful shot from someone paddling down the river in a glass-bottom kayak"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686097609/30573832_Silver_Springs_State_Park_Real_Thrills_Si_SENWW10IU4lVXWaX-BstcCr18q0ABlZBh_cmyk_l_yke6n2.jpg",
+                    "Caption": "Launch site for glass-bottomed boats"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686097610/Wood-Duck-ducklings-2314-1600x1257_iuocoa.jpg",
+                    "Caption": "A gang of ducklings found at Silver Springs"
+                }
             ]
         },
 
@@ -422,7 +538,55 @@ const springSeed = {
             "springCounty": "Marion",
             "springDescription": "This spring is a popular local hangout, with the main attraction being the swirling school of silver striped bass that are ever-present under the water here. There is a breeding ground for these bass near the head spring, but the area is off-limits and roped off, so make sure you stay away!",
             "address": "5271 FL-19, Salt Springs, FL 32134",
-            "admission": "Admission is $12/person for day use, or $75/person for an annual day use pass. Please note that there is no parking fee during weekdays, but weekends require a $15 parking pass between May 27 - Sept 4."
+            "admission": "Admission is $12/person for day use, or $75/person for an annual day use pass. Please note that there is no parking fee during weekdays, but weekends require a $15 parking pass between May 27 - Sept 4.",
+            "amenities": [
+                {
+                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityDescription": "Silver Glen Springs is a pretty decent place to snorkel & freedive. There are lots of fish swirling around to get a good look at.",
+                    "Cost": "No additional cost, just entrance to the park - $12/person for day use, or $75/person for an annual day use pass. Please note that there is no parking fee during weekdays, but weekends require a $15 parking pass between May 27 - Sept 4.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686098491/snorkeler-school-bass-silver-glen_xrjure.jpg",
+                            "Caption": "Some snorkelers swimming near one of the famous schools of fish at Silver Glen Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686098342/8696137743_530350a358_b_1_cn0wjm.jpg",
+                            "Caption": "A school of striped bass swimming in their breeding grounds"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686098297/Silver-Glen-Spring-1_cwo1ti.jpg",
+                            "Caption": "A shot of the swimming area at Silver Glen Springs"
+                        }
+                    
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83582"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityDescription": "There is one hiking trail named 'Lake George Trail', a 2-mile round trip experience that twists and turns through the nearby woods",
+                    "Cost": "No additional cost, just admission - $12/person for day use, or $75/person for an annual day use pass. Please note that there is no parking fee during weekdays, but weekends require a $15 parking pass between May 27 - Sept 4.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686098903/49972123232_63a029821e_b_j2lbxl.jpg",
+                            "Caption": "Entrance to Lake George Trail"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686098903/Lake-George-Trail-footpath_dtgdug.jpg",
+                            "Caption": "Sandy portion of Lake George Trail"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686098903/dsc-0388_2_orig_cvexfd.jpg",
+                            "Caption": "Gorgeous view of a palm tree sticking out over part of the river leading up to Silver Glen"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recreation/recarea/?recid=83583&actid=50"
+                }
+            ],
+            "springMedia": [
+                {
+                    "imageURL": ""
+                }
+            ]
         },
 
         // SALT SPRINGS
