@@ -742,8 +742,40 @@ const springSeed = {
                     "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83546"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b"
+                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityDescription": "There is one small mile-long trail at Alexander springs - Timicuan trail. This trail winds through the woods of Ocala National Forest, and hits a lot of the habitats you'd expect to see in the forest.",
+                    "Cost": "No additional cost, just entrance to the park - $12/person, or a $75 annual day use pass.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686185610/Timucuan-Trail-Alexander-Springs_xlagdr.jpg",
+                            "Caption": "A glimpse of the Timicuan Trail at Alexander Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686185610/2014-10_Alexander_Springs_67_-L_irs7ye.jpg",
+                            "Caption": "A chunk of the trail near the swimming area"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686185610/5491953005232128_idtkht.jpg",
+                            "Caption": "A map of the trail"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83546"
                 }
+            ],
+            "springMedia": [
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686185910/Alexander-DJI_0607-1_xu9wat.webp",
+                    "Caption": "An aerial shot of Alexander springs, taken by a drone soaring overhead"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686185908/32658883191_89fc438d77_b_uir1mw.jpg",
+                    "Caption": "An alligator found swimming around the fringe of Alexander Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686185907/download_3_a9rgxf.jpg",
+                    "Caption": "Overhead shot of Alexander Springs"
+                }
+
             ]
         },
 
@@ -757,7 +789,43 @@ const springSeed = {
             "springCounty": "Suwannee",
             "springDescription": "Located in Suwannee County, FL, this lesser-known spring is a great place for those wanting the fun of a florida freshwater spring without the throngs of tourists that some of the more popular springs get. The main attraction of this spring is a large observation deck about 15 feet above the water that you can dive off of, straight to the heart of the spring. This spring is one of deepest and most open springs out there, so it's also great for freediving.",
             "address": "Royal Spring Rd, O'Brien, FL 32071",
-            "admission": "Free"
+            "admission": "Free",
+            "amenities": [
+                {
+                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityDescription": "Royal Springs is characterized by one very large, wide, and deep hole. This makes it a very good spot for freediving, particularly those who want to train to reach greater depths more consistently and improve their breath hold. It also offers a somewhat unique experience, as you can dive off the large platform 20 or so feet above straight into a freedive. As far as snorkeling, there isn't much particularly noteworthy here, but a positive aspect of this spring as a whole is it lesser-known than many of the other springs in the area, which keeps crowds down and the price is free.",
+                    "Cost": "FREE. That's it.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686187922/best-swimming-holes-florida-royal-springs-suwaneee_tsw82n.jpg",
+                            "Caption": "Shot of the dive platform at Royal Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686187922/royal_springs-florida-7_p7foou.jpg",
+                            "Caption": "Wide shot of the dive platform at Royal Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686187922/royal-springs-park-1080x_xjiinp.jpg",
+                            "Caption": "Swimming area at Royal Springs"
+                        }
+                    ],
+                    "amenityWebsite": ""
+                }
+            ],
+            "springMedia": [
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686187922/best-swimming-holes-florida-royal-springs-suwaneee_tsw82n.jpg",
+                    "Caption": "Shot of the dive platform at Royal Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686187922/royal_springs-florida-7_p7foou.jpg",
+                    "Caption": "Wide shot of the dive platform at Royal Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686187922/royal-springs-park-1080x_xjiinp.jpg",
+                    "Caption": "Swimming area at Royal Springs"
+                }
+            ]
         },
 
         // BLUE SPRINGS (VOLUSIA)
@@ -765,17 +833,116 @@ const springSeed = {
         {
 
             "springName": "Blue Springs (Volusia)",
-            "latitude": {
-                "$numberDecimal": "28.946935"
-            },
-            "longitude": {
-                "$numberDecimal": "-81.336738"
-            },
+            "latitude": 28.946935,
+            "longitude": -81.336738,
             "springState": "FL",
             "springCounty": "Volusia",
             "springDescription": "Located in Volusia County, FL, this spring is one of the best the state has to offer. It's famous for the manatees that inhabit it, the abundance of local wildlife, and the crystal clear waters that make it up. This spot is a go-to for many a floridian free-diver, as the head spring is particularly deep, with plenty of nooks, crannies, and small caves to explore.This spring IS an endagered manatee protection site, and as such it closes down during the winter months when the manatees congregate in the springs in large numbers to shelter from the cold.",
-            "springMedia": [],
-            "amenities": [],
+            "springMedia": [
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686188750/Crystal-clear-water-at-Blue-Springs-State-Park-Daytona-Beach-11-e1496824707470.jpg_pyiwl3.webp",
+                    "Caption": "Beautiful shot of the river/stream leading up to the head spring at Blue Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686192235/blue-spring-single-manatee_d0gqoh.jpg",
+                    "Caption": "A lone manatee swimming along a wide-open stretch of the springs leading up to the head spring at Blue Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686188751/Blue-Spring-Trail-Head-spring-at-the-park_d5wra1.jpg",
+                    "Caption": "The head spring area at Blue Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686188947/Florida-manatees-aggregating-at-Blue-Spring-Volusia-County-Florida-to-thermoregulate_evebc2.png",
+                    "Caption": "A group of manatees congregating at Blue Springs"
+                }
+            ],
+            "amenities": [
+                {
+                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityDescription": "As an avid Florida freediver, Blue Springs is my go-to for freediving. If you start downstream, it's an absolutely beautiful swim upstream to the head spring, where one of the deepest springs in FL is located. The entrance to the springs is fairly sizeable and the spring itself is a good 50+ feet deep. There is a fallen log over the entrance which can make for some extremely cool freediving experiences and shots. Along the way down, there are numerous small side caves and crevices to explore - just be careful not to overdo it. If you're lucky, you can see manatees diving in the springs too!",
+                    "Cost": "No additional cost, just the admission to the park, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686191201/freediving_blue_springs_r1zqed.jpg",
+                            "Caption": "A freediver pushing past the entrance to the head spring at Blue Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686191202/PaulkUnderwater_myiosa.webp",
+                            "Caption": "A stunning view of just how deep blue springs really goes"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686191202/5_monodrop_GOPR0971-629576349_w0km5x.jpg",
+                            "Caption": "A freediver deep into a dive at Blue Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686191201/a.jpg-copy-2-400x293_1_qynsef.jpg",
+                            "Caption": "A beautiful shot of Blue Spring's head spring"
+                        },
+                        
+                    ],
+                    "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityDescription": "One of the best things to do at any spring is to build up a sweat before you hit the water, and the hiking trails allow to do exactly that. The hiking trail at blue springs is 3.6 miles one way if you walk it to completion, but there are several spots along the way that are good turn-around points if you aren't quite up for a hike that long. There are numerous species of plants and animals to observe along the way, and there are helpful signposts along the way giving you info on various berries, birds, etc. This trail ends linking up to the river that the spring itself feeds in to. There's also a boardwalk along the river leading up to the head spring, culminating in an obsveration deck, but it's close to the center of activity for a very popular spring so there isn't much nature around the boardwalk.",
+                    "Cost": "No additional cost, just admission to the park, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686192554/extra_large_dcc75f7fc51ee8a860f9565f3e20c734_dposyg.jpg",
+                            "Caption": "A very nice photo of a row of trees along Pine Island Trail"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686192234/2012-02_Pine_Island_Trail_55_-L_fyhnge.jpg",
+                            "Caption": "A forested area near the start of Pine Island Trail"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686192234/50367265038_d58e57aec2_b_rzigb9.jpg",
+                            "Caption": "A bench partway up Pine Island Trail"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b87",
+                    "amenityDescription": "Boat tours have become increasingly popular at Blue Springs. The tour takes you along the St Johns River, seeing several points of interest, likely a great deal of wildlife, etc. The boat tours currently run at 10 AM and 1 PM. The boat tour is two hours long, so be sure to bring some bottled water with you. Be prepared to see things such as alligator, gar, and other cool water animals as well. The boat tour is wheelchair accessible.",
+                    "Cost": "The cost is (as of the time I'm writing this) $28.17 for adults (13-64), $25.35 for seniors (65+), $18.78 for children (3-12), and free for infants (2-).",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686193349/the-boats-are-large-and_tccbu0.jpg",
+                            "Caption": "Loading dock at Blue Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686193348/River-Cruise-Boat2_0_fwrgin.gif",
+                            "Caption": "A boat for a boat tour along the St Johns river"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686193348/blue-springs-boat-tour_l5y52p.webp",
+                            "Caption": "Boat tours landing station at Blue Springs"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b83",
+                    "amenityDescription": "There are several types of birds regularly found at Blue Springs, including many Florida Scrub-Jays, several different kinds of woodpeckers, and the occasional owl.",
+                    "Cost": "No additional cost, just entrance to the park, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686193868/Screenshot_2023-06-07_230912_zyj8sk.png",
+                            "Caption": "A limpkin, found at Blue Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686193869/Screenshot_2023-06-07_231039_mmtp6v.png",
+                            "Caption": "A little blue heron, found at Blue Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686193870/Screenshot_2023-06-07_231015_qtz1gp.png",
+                            "Caption": "A black-crowned night-heron, found at Blue Springs"
+                        }
+                    ],
+                    "amenityWebsite": ""
+                }
+            ],
             "springReviews": [],
             "address": "2100 W French Ave, Orange City, FL 32763",
             "admission": "Admission at Blue Springs (Volusia) is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc."

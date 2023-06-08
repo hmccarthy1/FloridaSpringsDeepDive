@@ -34,7 +34,7 @@ function Header() {
         backgroundColor: '#111 !important '
       }}>
         <Container className='justify-content-between col-lg-10 col-xl-8  '>
-          <Navbar.Brand href="/" className='' style={brandStyle.style}>Hunter McCarthy</Navbar.Brand>
+          <Navbar.Brand href="/" className='' style={brandStyle.style}>Florida Springs Deep Dive</Navbar.Brand>
           <Nav className="d-flex col-4 justify-content-between">
 
             <Link to="/aboutme" style={linkStyles.style} className={linkStyles.classList}>About mes</Link>
