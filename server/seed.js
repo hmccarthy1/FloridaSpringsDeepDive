@@ -1344,7 +1344,38 @@ const springSeed = {
                     ],
                     "amenityWebsite": "https://www.ichetuckneespringscampground.com/"
                 }
-            ]
+            ],
+            "springReviews": [],
+            "springMedia": [
+                {    
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681680355/hu9ow4bb4kpsbrhp9rtf.jpg",
+                    "Caption": "A beautifully taken aerial picture of the head spring at Ichetucknee Springs"
+                },
+                {    
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686262878/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2011__07__shutterstock_1319184050-b83b5a0e9c6141d3b9065abf3052048d_y31hjs.jpg",
+                    "Caption": "Gorgeous view of the head springs at Ichetucknee Spring on a bright, sunny day"
+                },
+                {    
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686262878/Ichetucknee-headspring_fxfbx8.jpg",
+                    "Caption": "The head spring at Ichetucknee Springs"
+                },
+                {    
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686262878/ichetucknee-float.1990.moran_.sRGB__sbc4ts.jpg",
+                    "Caption": "An inner tuber floating down Ichetucknee River"
+                },
+                {    
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686262877/state-park-ichetucknee-springs_xbzryn.jpg",
+                    "Caption": "Overhead shot of the head spring at Ichetucknee"
+                },
+                {    
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686262878/gar_m5fzyi.jpg",
+                    "Caption": "Beautiful shot of a school of gar swimming through Ichetucknee River"
+                },
+                {    
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686263098/florida-ichetucknee-blue-hole_1_v8du4l.webp",
+                    "Caption": "The little-known Blue Hole at Ichetucknee"
+                }
+                ]
         },
 
         // GINNIE SPRINGS
@@ -1461,8 +1492,35 @@ const springSeed = {
                     "amenityWebsite": "https://ginniespringsoutdoors.com/activities-rentals/"
 
                 }
-
-
+            ],
+            "springReviews": [],
+            "springMedia": [
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686263341/DJI_0074_hitmws_zipow0.webp",
+                    "Caption": "Aerial shot of the some of the springs at Ginnie Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686263341/maxresdefault_dvc0xu.jpg",
+                    "Caption": "THIS is why you avoid holiday and summer weekends"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686263341/RiverDevilsDrone-1000x454_npovhz.jpg",
+                    "Caption": "Aerial shot of the Devil's Spring System at Ginnie Springs"
+                },
+                ,
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686263341/ginnie-springs-florida-kaydee-davey_yqth1h.jpg",
+                    "Caption": "Ground-level shot of one of the springs at Ginnie Springs"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686263342/Devils-Ear-Gallerya_qnikn2.jpg",
+                    "Caption": "Absolutely stunning shot of the cave system underneath the Devil's Spring System"
+                },
+                {
+                    "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686263340/ginnie-spring-ballroom-2_figvnf.jpg",
+                    "Caption": "The famous 'Ballroom' at Ginnie Springs"
+                }
+                
             ]
         }
 
