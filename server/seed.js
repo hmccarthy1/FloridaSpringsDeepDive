@@ -699,7 +699,52 @@ const springSeed = {
             "springCounty": "Lake",
             "springDescription": "This spring is one of the most beautiful beneath the surface. On the shore, it may not look like much due to it's originally shallow nature, and seagrass blocking out much of the view, but this opens up into a gorgeous head spring. This spring is surprisingly deep, with a lot of rocky outcroppings and natural features. It's a popular spot for new or aspiring divers to practice bouyancy control, and it also boasts a pretty nice nature trail, only steps away from the spring",
             "address": "49525 County Rd 445, Altoona, FL 32702",
-            "admission": "Alexander Springs has an admission fee of $12/person, or a $75 annual day use pass."
+            "admission": "Alexander Springs has an admission fee of $12/person, or a $75 annual day use pass.",
+            "amenities": [
+                {
+                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityDescription": "Snorkeling/Freediving is an extremely popular activity at Alexander Springs. The springs may look small on the surface, but underneath the water the spring actually expands quite a bit into a large area that is an excellent area for freediving. The current coming up from the aquifer is also very strong, so it can offer a nice challenge for those looking to push themselves.",
+                    "Cost": "No additional cost, just entry to the park - $12/person, or a $75 annual day use pass.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686181282/diving-down-into-alexander-springs-1024x577_1_krysdi.jpg",
+                            "Caption": "A snorkeler in the middle of the head spring area at Alexander"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686181282/images_hzzdd7.jpg",
+                            "Caption": "Canyon-like area at Alexander"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686181283/Photo_May_08_4_06_01_PM_1_upjjkg.jpg",
+                            "Caption": "Spring boil at Alexander"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83546"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b81",
+                    "amenityDescription": "Alexander Springs is a very popular spot for beginner divers and dive instructors who want a safe, risk-free way to train things such as buoyancy control. It isn't deep enough for premature ascents to cause serious cases of the bends, and the nature of the spring itself makes it easy to manage a small to moderate sized dive group. Serious divers won't get much value from this dive, as there's no cave systems or deep water to explore, but it can be a great place to build basic skills.",
+                    "amenityCost": "Nothing on the website to indicate an additional cost - I believe diving is just the cost of admission - $12/person, or a $75 annual day use pass.",
+                    "amenityMedia": [
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686183883/alexander-springs-fl-by-becca-hurley-20-20becca-20hurley_jndqy8.jpg",
+                            "Caption": "Image of a diver in front of the trench at Alexander Springs"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686183883/IMG_4682-scaled_jwlzl7.jpg",
+                            "Caption": "A diver practicing the procedure to follow a dive line"
+                        },
+                        {
+                            "imageURL": "https://res.cloudinary.com/dsvmviwkc/image/upload/v1686183883/alexander-springs-fl-by-becca-hurley-20-20becca-20hurley_jndqy8.jpg",
+                            "Caption": "A diver blowing bubbles at Alexander Springs"
+                        }
+                    ],
+                    "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83546"
+                },
+                {
+                    "amenityType": "6464f912994a58322e8a0b7b"
+                }
+            ]
         },
 
         // ROYAL SPRINGS
