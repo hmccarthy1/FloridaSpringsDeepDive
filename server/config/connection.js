@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:127.0.0.1/FloridaSpringsDeepDiveDB',
+mongoose.connect('mongodb://0.0.0.0:27017/FloridaSpringsDeepDiveDB',
 {
   useNewUrlParser: true,
   useUnifiedTopology: true
