@@ -41,7 +41,7 @@ const springSeed = {
             "springCounty": "Sumter",
             "springDescription": "This spring is a rare treasure in Florida. It is accessible only through paddling serveral miles up the Withlacoochee River, a river system the branches off into several smaller springs, known as the 'Gum Slough Springs Group'. This paddle is not for the easily deterred, as it is 5 miles up-current, with several areas that you're likely to have to portage your canoe across shallow areas. The head spring at the end of this trip makes it all worthwhile though, as it is a stunning spring that's basically untouched, as the journey to reach it deters tourists and those not familiar with the run. It has some amazing rock formations, and quite a bit of wildlife along the way.",
             "address": "9460 E Turner Camp Rd, Inverness, FL 34453",
-            "admission": "Free",
+            "admission": "Free ",
             "springReviews": [],
             "address": "9460 East Turner Camp Road, Inverness, Fl 34450.",
             "amenities": [
