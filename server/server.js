@@ -43,7 +43,7 @@ const startApolloServer = async () => {
   await server.start();
   server.applyMiddleware({ app });
   
-  mongoose.once('open', () => {
+  db.once('open', () => {
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
       console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);

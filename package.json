@@ -17,6 +17,7 @@
         "concurrently": "^5.1.0"
     },
     "dependencies": {
+        "heroku": "^8.1.7",
         "nodemon": "^2.0.22",
         "react-router-dom": "^6.2.1"
     }
