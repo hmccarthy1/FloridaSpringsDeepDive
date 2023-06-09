@@ -9,7 +9,8 @@ console.log(mongoose.collections)
 const bodyParser = require("body-parser");
 const { typeDefs, resolvers } = require('./schemas');
 var express = require('express')
-require('dotenv').config({path: '../.env'});
+const dotenv = require('dotenv').config({path: '../.env'});
+console.log("DOTENV", dotenv)
 
 var app = express()
 const server = new ApolloServer({
