@@ -7,4 +7,5 @@ mongoose.connect(process.env.REACT_APP_MONGOOSE_STRING,
   useUnifiedTopology: true
 }).catch((err) => console.log(err))
 
+
 module.exports = mongoose.connection;
