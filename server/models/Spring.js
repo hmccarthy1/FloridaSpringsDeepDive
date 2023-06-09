@@ -23,6 +23,7 @@ const amenityReviewsSchema = new mongoose.Schema({
     reviewMedia: {
         type: [String],
         
+        
     },
     amenityRating: {
         type: Schema.Types.Decimal128,
