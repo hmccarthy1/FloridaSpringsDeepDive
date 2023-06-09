@@ -9,6 +9,7 @@ console.log(mongoose.collections)
 const bodyParser = require("body-parser");
 const { typeDefs, resolvers } = require('./schemas');
 var express = require('express')
+require('dotenv').config({path: '../.env'});
 
 var app = express()
 const server = new ApolloServer({
@@ -43,7 +44,7 @@ const startApolloServer = async () => {
   await server.start();
   server.applyMiddleware({ app });
   
-  db.once('open', () => {
+  mongoose.once('open', () => {
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
       console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
