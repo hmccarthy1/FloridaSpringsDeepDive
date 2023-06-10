@@ -12,14 +12,14 @@ import { faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const brandStyle = {
   style: {
-    fontSize: '5vw'
+    
   }
 }
 
 const linkStyles = {
 
   style: {
-    fontSize: '3vw',
+  
   },
   classList: 'text-light'
 }
@@ -47,7 +47,7 @@ function Header() {
         backgroundColor: '#111'
       }}>
         <Container className='justify-content-between col-lg-10 col-xl-8 mb-0 '>
-          <Navbar.Brand href="/" className='' style={brandStyle.style}>Florida Springs Deep Dive</Navbar.Brand>
+          <Navbar.Brand href="/" className='header' style={brandStyle.style}>Florida Springs Deep Dive</Navbar.Brand>
           <Nav className="d-flex col-2 justify-content-around ">
 
             {Auth.getProfile() ? (
@@ -67,7 +67,7 @@ function Header() {
               </>
             ) : (
 
-              <Nav.Link to="/signup" style={linkStyles.style} className={linkStyles.classList}>Login</Nav.Link>
+              <Link href='/signup' to="/signup" style={linkStyles.style} className={linkStyles.classList}>Login</Link>
 
             )}
 
