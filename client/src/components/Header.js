@@ -67,7 +67,7 @@ function Header() {
               </>
             ) : (
 
-              <Link to="/signup" style={linkStyles.style} className={linkStyles.classList}>Login</Link>
+              <Nav.Link to="/signup" style={linkStyles.style} className={linkStyles.classList}>Login</Nav.Link>
 
             )}
 

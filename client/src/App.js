@@ -45,7 +45,7 @@ function App() {
       {/* // Router */}
 
       <Router>
-        <div className="App column" style={{width: '100vw'}}>
+        <div className="App column" style={{width: '100vw', maxWidth: '100vw'}}>
 
           {/* Universal elements */}
           <Header className='col-12'/>
