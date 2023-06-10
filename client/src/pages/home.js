@@ -24,7 +24,7 @@ const Home = () => {
                 </p>
                 </div>
                 <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center row justify-content-center'>
-                    <SpringCard spring = '648490e08b950daa6fd22215'></SpringCard>
+                    <SpringCard spring = '648490e08b950daa6fd22215' ></SpringCard>
 
                 </div>
             </div>

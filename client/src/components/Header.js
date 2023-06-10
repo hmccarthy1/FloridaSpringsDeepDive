@@ -27,6 +27,7 @@ const linkStyles = {
 
 function Header() {
 
+
   const loggedIn = Auth.loggedIn()
 
   const { loading, data } = useQuery(allUsers);
@@ -84,6 +85,8 @@ function Header() {
 
     </>
   );
+
+
 }
 
 export default Header;
