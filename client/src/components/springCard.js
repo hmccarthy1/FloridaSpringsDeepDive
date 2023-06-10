@@ -7,16 +7,16 @@ import { SINGLE_SPRING } from '../utils/queries';
 function SpringCard(props) {
 
   const { loading, data } = useQuery(SINGLE_SPRING, {variables: {springID: props.spring}} );
- console.log(data)
+  const spring = data?.spring || [];
+console.log(spring)
 
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Title>{spring.springName}</Card.Title>
+      <Card.Img variant="top" src={spring.springMedia[0].imageURL}/>
       <Card.Body>
-        <Card.Title>{props.spring}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {spring.springDescription}
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
@@ -25,3 +25,6 @@ function SpringCard(props) {
 }
 
 export default SpringCard;
+
+
+

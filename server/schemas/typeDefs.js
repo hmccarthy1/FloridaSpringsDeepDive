@@ -14,6 +14,12 @@ const typeDefs = gql`
     _id: ID
   }
 
+  type springMedia {
+    _id: ID
+    imageURL: String!
+    Caption: String!
+  }
+
   type Spring {
     _id: ID
     springName: String
@@ -24,6 +30,7 @@ const typeDefs = gql`
     springDescription: String
     address: String
     admission: String
+    springMedia: [springMedia]
 
 
   }
