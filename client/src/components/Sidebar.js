@@ -1,9 +1,13 @@
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/esm/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faHeart, faMagnifyingGlass, faArrowTrendUp, faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faHeart, faMagnifyingGlass, faArrowTrendUp, faCircleDollarToSlot, faUser } from '@fortawesome/free-solid-svg-icons';
 import Nav from 'react-bootstrap/Nav'
 import NavLink from 'react-bootstrap/esm/NavLink';
+import Auth from '../utils/auth';
+import { useQuery } from '@apollo/client';
+import { allUsers } from '../utils/queries';
+import { Link } from 'react-router-dom';
 
 const styles = {
   divider: {
@@ -18,28 +22,85 @@ const styles = {
   },
   button: {
     maxWidth: '100%'
+  },
+  main: {
+  
   }
 }
 
+
+
+
 function Sidebar() {
+
+  const linkStyles = {
+
+    style: {
+    
+    },
+    classList: 'text-light'
+  }
+  
+  const loggedIn = Auth.loggedIn()
+
+  const { loading, data } = useQuery(allUsers);
+  const users = data?.users || [];
+  console.log(users);
+
+
   return (
     <>
+    <div style={styles.main} className=''>
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link ><FontAwesomeIcon icon={faHouse} size="lg" style={styles.homeIcon}/></Nav.Link>
+    <Nav.Link href='/'><FontAwesomeIcon icon={faHouse} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
+
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link ><FontAwesomeIcon icon={faHeart} style={styles.homeIcon}/></Nav.Link>
+    <Nav.Link href='/favorites' ><FontAwesomeIcon icon={faHeart} style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
+
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link ><FontAwesomeIcon icon={faMagnifyingGlass} style={styles.homeIcon}/></Nav.Link>
+    <Nav.Link  href='/search' ><FontAwesomeIcon icon={faMagnifyingGlass} style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
+
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link ><FontAwesomeIcon icon={faArrowTrendUp} style={styles.homeIcon}/></Nav.Link>
+    <Nav.Link href='/trending' ><FontAwesomeIcon icon={faArrowTrendUp} style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
+
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link ><FontAwesomeIcon icon={faCircleDollarToSlot} style={styles.homeIcon}/></Nav.Link>
+    <Nav.Link href='/donate' ><FontAwesomeIcon icon={faCircleDollarToSlot} style={styles.homeIcon} /></Nav.Link>
     <div className='divider'  style={styles.divider}></div>
     
+    <div className='divider' style={styles.divider}></div>
+    {Auth.getProfile() ? (
+
+<>
+
+
+  <Link to="/profile" style={linkStyles.style} className={linkStyles.classList}>
+    <FontAwesomeIcon icon={faUser} style={{ color: 'white', height: '100%' }} className='mr-3' />
+  </Link>
+
+  <Link to="/search" style={linkStyles.style} className={linkStyles.classList}>
+    <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: 'white', height: '100%' }} className='mr-3' />
+  </Link>
+
+
+</>
+) : (
+
+  <>
+  <div className='divider' style={styles.divider}></div>
+  <Nav.Link href='/donate' ><FontAwesomeIcon icon={faUser} style={styles.homeIcon} /></Nav.Link>
+  <div className='divider'  style={styles.divider}></div>
+  </>
+
+)}
+<div className='divider' style={styles.divider}></div>
+
+    
+    
+    </div>
     </>
   );
 }

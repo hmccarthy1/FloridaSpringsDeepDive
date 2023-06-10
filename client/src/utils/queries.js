@@ -18,6 +18,7 @@ export const QUERY_USER = gql`
   query getSingleSpring($springID: ID!) {
     spring(springID:  $springID) {
     
+      _id
       springName
       springDescription
       springMedia {

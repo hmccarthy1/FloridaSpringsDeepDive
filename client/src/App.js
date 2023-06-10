@@ -48,14 +48,16 @@ function App() {
         <div className="App column" style={{width: '100vw', maxWidth: '100vw'}}>
 
           {/* Universal elements */}
-          <Header className='col-12'/>
+
+          <div style={{position: 'fixed', left: 0, top: 0, width: '100vw'}} className=''><Header className='col-12 pl-3'/></div>
+          
           <div className='row'>
 
-          <div style={{height: '93vh', backgroundColor: '#111'}} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
+          <div style={{height: '93vh', backgroundColor: '#111', position: 'fixed', width: '10vw', top: '7vh', left: '0'}} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
             <Sidebar />
           </div>
 
-          <div className='col-xl-11 col-lg-11 col-md-11 col-sm-10 col-xs-10 col-10'>
+          <div className='col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10 bodyContent' style={{left: '15vw', top: '7vh', maxWidth: '90vw'}}>
             <Routes>
               <Route
                 path='/signup'
