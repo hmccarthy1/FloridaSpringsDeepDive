@@ -20,7 +20,7 @@ function Sidebar() {
   return (
     <>
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link href='/signup'><FontAwesomeIcon icon={faHouse} size="xl" style={styles.homeIcon}/></Nav.Link>
+    <Nav.Link ><FontAwesomeIcon icon={faHouse} size="lg" style={styles.homeIcon}/></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
 

@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Signup from './pages/signup';
 import Home from './pages/home';
 import Sidebar from './components/Sidebar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -44,16 +45,16 @@ function App() {
       {/* // Router */}
 
       <Router>
-        <div className="App column">
+        <div className="App column" style={{width: '100vw'}}>
 
           {/* Universal elements */}
-          <Header />
+          <Header className='col-12'/>
           <div className='row'>
 
-          <div style={{height: '93vh', backgroundColor: '#111'}} className='col-1'>
+          <div style={{height: '93vh', backgroundColor: '#111'}} className='col-xl-6 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
             <Sidebar />
             </div>
-          <div className='col-11'>
+          <div className=''>
             <Routes>
               <Route
                 path='/signup'
