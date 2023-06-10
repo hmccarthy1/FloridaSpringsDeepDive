@@ -12,6 +12,7 @@ import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Signup from './pages/signup';
 import Home from './pages/home';
+import Sidebar from './components/Sidebar';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -35,24 +36,36 @@ const client = new ApolloClient({ uri: '/graphql', cache: new InMemoryCache() })
 function App() {
   return (
 
+
+    // Apollo wrapper
+
     <ApolloProvider client={client}>
+
+      {/* // Router */}
+
       <Router>
-        <div className="App">
+        <div className="App column">
+
+          {/* Universal elements */}
           <Header />
-          <Routes>
-            <Route
-              path='/signup'
-              element={<Signup />}
-            />
+          <div className='row'>
+
+          <div style={{width: '5vw', height: '93vh', backgroundColor: '#111'}}>
+            <Sidebar />
+            </div>
+          <div style={{width: '90vw'}}>
+            <Routes>
+              <Route
+                path='/signup'
+                element={<Signup />} />
+              <Route
+                path='/'
+                element={<Home></Home>} />
+            </Routes>
+            </div>
+          </div>
 
 
-
-
-            <Route 
-            path='/'
-            element={<Home></Home>}
-            />
-          </Routes>
         </div>
       </Router>
     </ApolloProvider>

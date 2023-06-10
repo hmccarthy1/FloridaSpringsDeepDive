@@ -1,4 +1,6 @@
-body {
+:root {
+  --primaryColor: rgb(32, 220, 205);
+}body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -20,10 +22,18 @@ code {
   background-size: cover;
 }
 
- .homeContent {
-  background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
+.accordion-item {
+  background-color: #111 !important;
+  
+}
+
+
+
+
+.accordion-button {
+  font-size: 12pt !important;
+  height: 4rem;
+  background-color: var(--primaryColor);
 }
