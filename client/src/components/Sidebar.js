@@ -1,7 +1,7 @@
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/esm/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faHeart, faMagnifyingGlass, faArrowTrendUp } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faHeart, faMagnifyingGlass, faArrowTrendUp, faCircleDollarToSlot } from '@fortawesome/free-solid-svg-icons';
 import Nav from 'react-bootstrap/Nav'
 import NavLink from 'react-bootstrap/esm/NavLink';
 
@@ -37,8 +37,8 @@ function Sidebar() {
     <Nav.Link ><FontAwesomeIcon icon={faArrowTrendUp} style={styles.homeIcon}/></Nav.Link>
     <div className='divider' style={styles.divider}></div>
     <div className='divider' style={styles.divider}></div>
-    <a className='text-white btn btn-primary' style={styles.button}>Donate</a>
-    <div className='divider' style={styles.divider}></div>
+    <Nav.Link ><FontAwesomeIcon icon={faCircleDollarToSlot} style={styles.homeIcon}/></Nav.Link>
+    <div className='divider'  style={styles.divider}></div>
     
     </>
   );

@@ -14,6 +14,14 @@ export const QUERY_USER = gql`
     }
   }`;
   
+  export const SINGLE_SPRING = gql`
+  query getSingleSpring($springID: ID!) {
+    spring(_id:  $springID) {
+      _id
+      springName
+      springDescription
+    }
+  }`
   
   export const allUsers = gql` 
   

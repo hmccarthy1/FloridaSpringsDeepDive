@@ -1,5 +1,6 @@
 const { AuthenticationError } = require('apollo-server-express');
 const User = require('../models/User');
+const Spring = require('../models/Spring')
 const { signToken } = require('../utils/auth');
 
 
@@ -7,6 +8,10 @@ const resolvers = {
   Query: {
     users: async () => {
       return await User.find()
+    },
+
+    spring: async (parent, {springID}) => {
+      return await Spring.findOne({_id: springID})
     }
 
 },

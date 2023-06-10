@@ -53,8 +53,9 @@ function App() {
 
           <div style={{height: '93vh', backgroundColor: '#111'}} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
             <Sidebar />
-            </div>
-          <div className=''>
+          </div>
+
+          <div className='col-xl-11 col-lg-11 col-md-11 col-sm-10 col-xs-10 col-10'>
             <Routes>
               <Route
                 path='/signup'

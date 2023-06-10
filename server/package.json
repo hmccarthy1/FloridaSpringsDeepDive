@@ -16,6 +16,7 @@
   },
   "scripts": {
     "start": "node server.js",
+    "server": "nodemon index.js --ignore client",
     "watch": "nodemon"
   },
   "devDependencies": {

@@ -37,3 +37,17 @@ code {
   height: 4rem;
   background-color: var(--primaryColor);
 }
+
+@media only screen and (max-width: 600px) {
+
+ h1 {
+  font-size: 12pt !important;
+  text-align: left;
+ }
+
+ p {
+  font-size: 8pt;
+  
+ }
+
+}
