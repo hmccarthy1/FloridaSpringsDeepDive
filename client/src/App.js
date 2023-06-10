@@ -50,10 +50,10 @@ function App() {
           <Header />
           <div className='row'>
 
-          <div style={{width: '5vw', height: '93vh', backgroundColor: '#111'}}>
+          <div style={{height: '93vh', backgroundColor: '#111'}} className='col-1'>
             <Sidebar />
             </div>
-          <div style={{width: '90vw'}}>
+          <div className='col-11'>
             <Routes>
               <Route
                 path='/signup'

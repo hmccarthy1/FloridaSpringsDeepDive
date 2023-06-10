@@ -9,9 +9,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 
+
 const brandStyle = {
   style: {
-    fontSize: '24pt'
+    fontSize: '3rem'
   }
 }
 
