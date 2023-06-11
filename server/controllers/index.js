@@ -4,6 +4,10 @@ const User = require('../models/User.js');
 const Spring = require('../models/Spring.js')
 const springRoutes = require('./springRoutes.js')
 const {springSeed} = require('../seed.js')
+const path = require('path');
+
+
+
 
 
 router.use('/users', userRoutes);
@@ -23,6 +27,18 @@ router.post('/runseed', async (req, res) => {
 
 }
 )
+
+
+router.get('/', async (req, res) => {
+ 
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+if (err) {
+  res.status(500).send(err)
+}
+  
+  
+})
+
 
 
 
