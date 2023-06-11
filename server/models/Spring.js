@@ -122,7 +122,7 @@ const springSchema = new mongoose.Schema({
 
 const Springs = mongoose.model('Springs', springSchema, 'Springs');
 
-module.exports = {Springs};
+module.exports = Springs;
 
 
 
