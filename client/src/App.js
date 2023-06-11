@@ -53,11 +53,11 @@ function App() {
           
           <div className='row'>
 
-          <div style={{height: '93vh', backgroundColor: '#111', position: 'fixed', width: '10vw', top: '7vh', left: '0'}} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
+          <div style={{height: '93vh', backgroundColor: '#111', position: 'fixed', top: '7vh', left: '0'}} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
             <Sidebar />
           </div>
 
-          <div className='col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10 bodyContent p-5 justify-content-center' style={{left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%'}}>
+          <div className='col-xl-11 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10 bodyContent p-5 justify-content-center' style={{left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%'}}>
             <Routes>
               <Route
                 path='/signup'

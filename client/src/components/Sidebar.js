@@ -56,19 +56,19 @@ function Sidebar() {
     <div className='divider' style={styles.divider}></div>
 
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link href='/favorites' ><FontAwesomeIcon icon={faHeart} style={styles.homeIcon} /></Nav.Link>
+    <Nav.Link href='/favorites' ><FontAwesomeIcon icon={faHeart} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link  href='/search' ><FontAwesomeIcon icon={faMagnifyingGlass} style={styles.homeIcon} /></Nav.Link>
+    <Nav.Link  href='/search' ><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link href='/trending' ><FontAwesomeIcon icon={faArrowTrendUp} style={styles.homeIcon} /></Nav.Link>
+    <Nav.Link href='/trending' ><FontAwesomeIcon icon={faArrowTrendUp} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
     <div className='divider' style={styles.divider}></div>
-    <Nav.Link href='/donate' ><FontAwesomeIcon icon={faCircleDollarToSlot} style={styles.homeIcon} /></Nav.Link>
+    <Nav.Link href='/donate' ><FontAwesomeIcon icon={faCircleDollarToSlot} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider'  style={styles.divider}></div>
     
     <div className='divider' style={styles.divider}></div>
@@ -78,11 +78,11 @@ function Sidebar() {
 
 
   <Link to="/profile" style={linkStyles.style} className={linkStyles.classList}>
-    <FontAwesomeIcon icon={faUser} style={{ color: 'white', height: '100%' }} className='mr-3' />
+    <FontAwesomeIcon icon={faUser} size="lg" style={{ color: 'white', height: '100%' }} className='mr-3' />
   </Link>
 
   <Link to="/search" style={linkStyles.style} className={linkStyles.classList}>
-    <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: 'white', height: '100%' }} className='mr-3' />
+    <FontAwesomeIcon icon={faMagnifyingGlass} size="lg" style={{ color: 'white', height: '100%' }} className='mr-3' />
   </Link>
 
 
@@ -91,7 +91,7 @@ function Sidebar() {
 
   <>
   <div className='divider' style={styles.divider}></div>
-  <Nav.Link href='/donate' ><FontAwesomeIcon icon={faUser} style={styles.homeIcon} /></Nav.Link>
+  <Nav.Link href='/donate' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
   <div className='divider'  style={styles.divider}></div>
   </>
 

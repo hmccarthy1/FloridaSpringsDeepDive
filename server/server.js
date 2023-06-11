@@ -5,7 +5,6 @@ const session = require('express-session');
 const routes = require('./controllers');
 const User = require('./models/User');
 const mongoose = require('./config/connection');
-console.log(mongoose.collections)
 const bodyParser = require("body-parser");
 const { typeDefs, resolvers } = require('./schemas');
 var express = require('express')

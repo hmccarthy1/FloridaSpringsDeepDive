@@ -2,6 +2,7 @@ const { ObjectId } = require('bson');
 const mongoose = require('mongoose');
 const {Schema} = require('mongoose');
 const bcrypt = require("bcryptjs");
+const { Springs } = require('./Spring');
 
 
 const validateEmail = function(email) {
@@ -23,7 +24,7 @@ const userSchema = new mongoose.Schema({
         type: String, 
         required: true,
         minLength: [8, "Password must be at least 8 characters"],
-        maxLength: [20, "Password must be at most 20 characters"]
+        maxLength: [100, "Password must be at most 20 characters"]
     }, 
 
     email: {
@@ -41,7 +42,9 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: false
-    }
+    },
+    favoriteSprings: [{type: Schema.Types.ObjectId,
+    ref: 'Spring'}]
 
 },
 {timestamps: true},

@@ -63,7 +63,7 @@ const Home = () => {
             </div>
 
             <div className='col-12 row mt-5 justify-content-center'>
-                <h1 id='gumSloughSprings' className='col-12 text-center'>Gum Slough Springs</h1>
+                <h1 id='gumSloughSprings' className='col-12 text-center'>Rainbow Springs</h1>
                 <p className='p text-left' style={styles.p}>Rainbow River / Rainbow Springs has probably the clearest water I've ever seen - that's why 'glass-bottomed' canoes and kayaks are so popular here, you can kayak down Rainbow River and look down to see all the fish zooming by beneath you as clear as day. This spot is famous across the country for it's kayaking/canoeing, and the river is huge - more than enough space for everyone to share. Hiking here is a rare treat, with many of the paths leading to lookout spots over the river, offering a sweeping view of this gorgeous Florida scene. </p>
                 <SpringCard spring = '648490e08b950daa6fd221a4'></SpringCard>
             </div>
