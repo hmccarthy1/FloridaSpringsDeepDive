@@ -58,7 +58,7 @@ function App() {
             <Sidebar />
           </div>
 
-          <div className='col-xl-11 col-lg-11 col-md-12 col-sm-10 col-xs-10 col-10 bodyContent ml-0 p-1 justify-content-center' style={{left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%', width: '90vw'}}>
+          <div className='col-xl-11 col-lg-11 col-md-12 col-sm-10 col-xs-10 col-10 bodyContent ml-0 p-2 justify-content-center' style={{left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%', width: '90vw'}}>
             <Routes>
               <Route
                 path='/signup'

@@ -24,7 +24,9 @@ h1 - 24.4140625px
 
 :root {
   --primaryColor: rgb(32, 220, 205);
-}body {
+}
+
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -106,8 +108,6 @@ p {
   font-size: 1.5em !important;
   line-height: 1.8 !important;
 }
-
-
 
 .accordion-button {
   font-size: 12pt !important;
