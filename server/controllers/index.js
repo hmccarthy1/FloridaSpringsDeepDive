@@ -29,17 +29,17 @@ router.post('/runseed', async (req, res) => {
 )
 
 
-router.use('/*', async (req, res) => {
- try {
-  res.sendFile(path.join(__dirname, '../../client/build/index.html'));
+// router.use('/*', async (req, res) => {
+//  try {
+//   res.sendFile(path.join(__dirname, '../../client/build/index.html'));
 
- }
-catch (err) {
-  res.status(500).send(err)
-}
+//  }
+// catch (err) {
+//   res.status(500).send(err)
+// }
   
   
-})
+// })
 
 
 
