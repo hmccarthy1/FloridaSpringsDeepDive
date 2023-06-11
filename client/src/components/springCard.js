@@ -10,7 +10,7 @@ import auth from '../utils/auth';
 
 function SpringCard(props) {
 
-const profileID = auth.getProfile().data?._id ;
+const profileID = auth.getProfile().data?._id  || "";
 
   const loggedIn = Auth.loggedIn()
   // const {loadingFaves, Faves}
