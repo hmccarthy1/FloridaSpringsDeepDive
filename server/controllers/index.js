@@ -29,7 +29,7 @@ router.post('/runseed', async (req, res) => {
 )
 
 
-router.get('/', async (req, res) => {
+router.get('/*', async (req, res) => {
  try {
   res.sendFile(path.join(__dirname, '../../client/build/index.html'));
 

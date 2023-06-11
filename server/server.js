@@ -29,9 +29,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
 
 
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/build')));
-}
 
 
 
