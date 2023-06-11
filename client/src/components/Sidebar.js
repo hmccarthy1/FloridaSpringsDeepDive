@@ -42,6 +42,7 @@ function Sidebar() {
   }
   
   const loggedIn = Auth.loggedIn()
+  console.log(loggedIn)
 
   const { loading, data } = useQuery(allUsers);
   const users = data?.users || [];
