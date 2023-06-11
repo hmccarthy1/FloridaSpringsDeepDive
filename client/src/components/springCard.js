@@ -44,7 +44,7 @@ const styles = {
         </Card.Text>
         <div className='row' style={{}}>
         <Button variant="primary" className='btn btn-lg  col-xl-4 col-lg-6 col-md-6 col-sm-8 col-xs-10 col-10' href={'spring/' + data?.spring?._id } style={styles.button}>Check it out!</Button>
-    <Nav.Link> className='ml-3 col-1 btn' style={{backgroundColor: 'white', border: 'none'}}><FontAwesomeIcon icon={faHeart} size="xl" style={{color: 'red', border: 'none'}} /></Nav.Link>
+    <Nav.Link href={'/spring/' + data?.spring?._id} className='ml-3 col-1 btn' style={{backgroundColor: 'white', border: 'none'}}><FontAwesomeIcon icon={faHeart} size="xl" style={{color: 'red', border: 'none'}} /></Nav.Link>
     </div>
       </Card.Body>
     </Card>
