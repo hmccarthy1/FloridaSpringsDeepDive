@@ -17,7 +17,7 @@ const profileID = auth.getProfile()?.data?._id  || "";
   const loggedIn = Auth.loggedIn()
   // const {loadingFaves, Faves}
   const { loading, data } = useQuery(SINGLE_SPRING, {variables: {springID: props.spring}} );
-const { loading: loadingUser, data: userData } = useQuery(QUERY_USER, {variables: {userID: '6483ac14fa6795967225ccc0' }});
+
 
 const styles = {
   button: {
@@ -54,6 +54,7 @@ const styles = {
 
 
 
+    
 </>  
   );
 }

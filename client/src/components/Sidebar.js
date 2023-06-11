@@ -46,6 +46,7 @@ function Sidebar() {
 
   const { loading, data } = useQuery(allUsers);
   const users = data?.users || [];
+  console.log(users);
 
 
   return (
@@ -71,20 +72,19 @@ function Sidebar() {
     <Nav.Link href='/donate' ><FontAwesomeIcon icon={faCircleDollarToSlot} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider'  style={styles.divider}></div>
     
-   
+    <div className='divider' style={styles.divider}></div>
     {Auth.getProfile() ? (
 
 <>
 
 
-<div className='divider' style={styles.divider}></div>
-    <Nav.Link href='/profile' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
-    <div className='divider'  style={styles.divider}></div>
-  
+  <Link to="/profile" style={linkStyles.style} className={linkStyles.classList}>
+    <FontAwesomeIcon icon={faUser} size="lg" style={{ color: 'white', height: '100%' }} className='mr-3' />
+  </Link>
 
-    <div className='divider' style={styles.divider}></div>
-    <Nav.Link href='/search' ><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" style={styles.homeIcon} /></Nav.Link>
-    <div className='divider'  style={styles.divider}></div>
+  <Link to="/search" style={linkStyles.style} className={linkStyles.classList}>
+    <FontAwesomeIcon icon={faMagnifyingGlass} size="lg" style={{ color: 'white', height: '100%' }} className='mr-3' />
+  </Link>
 
 
 </>
@@ -92,11 +92,12 @@ function Sidebar() {
 
   <>
   <div className='divider' style={styles.divider}></div>
-  <Nav.Link href='/signup' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
+  <Nav.Link href='/donate' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
   <div className='divider'  style={styles.divider}></div>
   </>
 
 )}
+<div className='divider' style={styles.divider}></div>
 
     
     

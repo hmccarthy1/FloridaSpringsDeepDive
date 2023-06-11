@@ -15,22 +15,7 @@ const resolvers = {
    
        return spring
     
-      },
-
-    singleUser: async (parent, { userID }) => {
-      try{
-
-        const foundUser = User.findById(userID);
-        console.log(foundUser);
-        return foundUser;
-      } catch (err) {
-        console.log(err);
-return err;
       }
-      
-    
-    
-    }
 
 },
 

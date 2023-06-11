@@ -1,14 +1,16 @@
 import gql from 'graphql-tag';
 
 export const QUERY_USER = gql`
-  query singleUser($userID: ID!) {
-    singleUser(userID: $userID) {
+  query user($username: String!) {
+    user(username: $username) {
       _id
       username
       email
-      firstName
-      lastName
-      
+      thoughts {
+        _id
+        thoughtText
+        createdAt
+      }
     }
   }`;
   

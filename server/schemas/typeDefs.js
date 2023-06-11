@@ -38,7 +38,6 @@ const typeDefs = gql`
   type Query {
     users: [User]
     spring(springID: ID!): Spring
-    singleUser(userID: ID!): User
   }
 
   type Auth {
