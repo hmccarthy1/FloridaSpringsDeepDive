@@ -40,6 +40,12 @@ return (<>
     {loading? (<div><h1>Loading, please wait</h1></div>) : (
         <SpringCarousel springId={springId} />)}
     </div>
+
+    <div className='col-12 mt-5'>
+
+        <h1 className='col-12 text-center'>Amenities</h1>
+
+    </div>
 </div>
 
 
