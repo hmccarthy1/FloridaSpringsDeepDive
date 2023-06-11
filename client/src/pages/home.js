@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import SpringCard from '../components/springCard';
+import { useParams } from 'react-router-dom';
+
 
 const styles = {
     homeContent: {
@@ -17,7 +19,9 @@ const styles = {
     }
 }
 
-const Home = () => {
+const Home = (props) => {
+    
+
     return (
         <>
             <div className='homeContent row' style={styles.homeContent}>

@@ -5,12 +5,17 @@ import { SINGLE_SPRING } from '../utils/queries';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import Auth from '../utils/auth';
+import { QUERY_USER } from '../utils/queries';
+import auth from '../utils/auth';
+
 function SpringCard(props) {
-  
+
+const profileID = auth.getProfile().data?._id ;
+
   const loggedIn = Auth.loggedIn()
   // const {loadingFaves, Faves}
   const { loading, data } = useQuery(SINGLE_SPRING, {variables: {springID: props.spring}} );
-
+const { loading: loadingUser, data: userData } = useQuery(QUERY_USER, {variables: {userID: '6483ac14fa6795967225ccc0' }});
 
 const styles = {
   button: {
@@ -37,7 +42,7 @@ const styles = {
         {data?.spring?.springDescription}
         </Card.Text>
         <div className='row' style={{}}>
-        <Button variant="primary" className='btn btn-lg col-10' href={'spring/' + data?.spring?._id } style={styles.button}>Check it out!</Button>
+        <Button variant="primary" className='btn btn-lg  col-xl-4 col-lg-6 col-md-6 col-sm-8 col-xs-10 col-10' href={'spring/' + data?.spring?._id } style={styles.button}>Check it out!</Button>
     <Button className='ml-3 col-1' style={{backgroundColor: 'white', border: 'none'}}><FontAwesomeIcon icon={faHeart} size="xl" style={{color: 'red', border: 'none'}} /></Button>
     </div>
       </Card.Body>
@@ -47,7 +52,6 @@ const styles = {
 
 
 
-    
 </>  
   );
 }

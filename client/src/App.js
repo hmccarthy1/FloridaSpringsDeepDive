@@ -14,6 +14,8 @@ import Signup from './pages/signup';
 import Home from './pages/home';
 import Sidebar from './components/Sidebar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useParams } from 'react-router-dom';
+import IndividualSpring from './pages/individualSpring';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -65,8 +67,17 @@ function App() {
               <Route
                 path='/'
                 element={<Home></Home>} />
+            <Route
+            path='/spring/:springId'
+            
+            element={<IndividualSpring></IndividualSpring>}
+            
+            />
             </Routes>
-            </div>
+
+
+
+</div>
           </div>
 
 
