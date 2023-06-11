@@ -9,7 +9,7 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Signup from './pages/signup';
 import Home from './pages/home';
 import Sidebar from './components/Sidebar';
@@ -64,15 +64,15 @@ function App() {
               <Route
                 path='/signup'
                 element={<Signup />} />
-              <Route
-                path='/'
-                element={<Home></Home>} />
             <Route
             path='/spring/:springId'
             
             element={<IndividualSpring></IndividualSpring>}
             
             />
+              <Route
+                path='/'
+                element={<Home></Home>} />
             </Routes>
 
 
