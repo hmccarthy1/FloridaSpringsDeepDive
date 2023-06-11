@@ -14,6 +14,7 @@ import Signup from './pages/signup';
 import Home from './pages/home';
 import Sidebar from './components/Sidebar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import IndividualSpring from './pages/IndividualSpring';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -57,7 +58,7 @@ function App() {
             <Sidebar />
           </div>
 
-          <div className='col-xl-11 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10 bodyContent p-5 justify-content-center' style={{left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%'}}>
+          <div className='col-xl-11 col-lg-10 col-md-10 col-sm-10 col-xs-10 col-10 bodyContent ml-5 justify-content-center' style={{left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%'}}>
             <Routes>
               <Route
                 path='/signup'

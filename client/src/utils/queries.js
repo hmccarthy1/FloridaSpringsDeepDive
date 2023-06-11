@@ -21,9 +21,24 @@ export const QUERY_USER = gql`
       _id
       springName
       springDescription
+      address
+      admission
+      springCounty
       springMedia {
         imageURL
         Caption
+      }
+      amenities {
+        amenityType {
+          amenityType
+        }
+        amenityDescription
+        Cost
+        amenityWebsite
+        amenityMedia {
+          imageURL
+          Caption
+        }
       }
     }
   }`

@@ -22,11 +22,35 @@ code {
   background-size: cover;
 }
 
-
+.carousel-indicators {
+  bottom: 0 !important;
+  z-index: 9999;
+}
 
 .accordion-item {
   background-color: #111 !important;
   
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+width: 100% !important;
+height: 20% !important;  
+  padding: 0px !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  position: absolute !important;
+  top: 80% !important;
+  left: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: white !important;
+  font-size: 1em !important;
+  line-height: 1.8 !important;
 }
 
 .bodyContent {
@@ -35,6 +59,29 @@ code {
 
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black !important;
+  position: absolute !important;
+  top: 50% !important;
+  bottom: 50% !important;
+  
+  
+}
+
+img{
+  width: 100% !important;
+  height: auto !important;
+}
+
+.carousel {
+  width: 100% !important;
+  height: auto !important;
+}
+
+p {
+  font-size: 1.5em !important;
+  line-height: 1.8 !important;
+}
 
 
 
@@ -56,8 +103,67 @@ code {
   
  }
 
+
+ .carouselItem {
+  width: 475px !important;
+  height: 300px !important;
+  padding: 0px !important;
+  margin-right: 0px !important;
+ }
+
+ .carouselItem img {
+  width: 475px !important;
+  height: 300px !important;
+  padding: 0px !important;
+  margin-right: 0px !important;
+ }
+
+ .carousel-item .carousel-caption h3{
+font-size: 1em  !important;}
+
  .header {
   font-size: 20pt !important;
  }
 
+}
+
+@media only screen and (min-width: 601px) {
+  h1 {
+    font-size: 16pt !important;
+    text-align: left;
+   }
+  
+   p {
+    font-size: 12pt !important;
+    
+   }
+  
+   .carousel-inner {
+    justify-content: center !important;
+    display: flex;
+   }
+  
+   .carouselItem {
+    width: 500px !important;
+    height: 400px !important;
+    padding: 0px !important;
+    margin-right: 0px !important;
+   }
+
+   .carousel-item img {
+    width: 500px !important;
+    height: 400px !important;
+    padding: 0px !important;
+    margin-right: 0px !important;
+   }
+  
+   .carousel-item .carousel-caption h3{
+  font-size: 16px  !important;
+  overflow-y: scroll;
+}
+  
+   .header {
+    font-size: 20pt !important;
+   }
+  
 }

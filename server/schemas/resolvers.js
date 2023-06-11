@@ -11,7 +11,8 @@ const resolvers = {
     },
 
     spring: async (parent, {springID}) => {
-       const spring = await Spring.findOne({_id: springID})
+       const spring = await Spring.findOne({_id: springID});
+       console.log('spring', spring)
    
        return spring
     

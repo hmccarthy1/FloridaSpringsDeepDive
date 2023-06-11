@@ -20,6 +20,28 @@ const typeDefs = gql`
     Caption: String!
   }
 
+  type amenityMedia {
+    _id: ID
+    imageURL: String!
+    Caption: String!
+  }
+
+  type amenityTypeChoices {
+    _id: ID
+    amenityType: String
+    amenityIconURL: String
+  }
+
+  type Amenity { 
+    _id: ID
+    amenityType: amenityTypeChoices
+    amenityDescription: String
+    Cost: String
+    amenityWebsite: String
+    amenityMedia: [amenityMedia]
+
+  }
+
   type Spring {
     _id: ID
     springName: String
@@ -31,6 +53,7 @@ const typeDefs = gql`
     address: String
     admission: String
     springMedia: [springMedia]
+    amenities: [Amenity]
 
 
   }
