@@ -2,25 +2,13 @@
 
 typography - for mobile users
 
-p - 12px
-h4 -15px
-h3 - 18.75px
-h2 - 23.4375ox
-h1 - 29.296875px
+p - 14px
+h4 -16px
+h3 - 18px
+h2 - 20px
+h1 - 23px
 
-
-p - 10px
-h4 -12.5px
-h3 - 15.625px
-h2 - 19.53125px
-h1 - 24.4140625px
 */
-
-
-
-
-
-
 
 :root {
   --primaryColor: rgb(32, 220, 205);
@@ -117,17 +105,40 @@ p {
 
 @media only screen and (max-width: 600px) {
 
- h1 {
-  font-size: 12pt !important;
-  text-align: left;
- }
+  /* Style plan 
 
- p {
-  font-size: 12px !important;
-  
- }
+typography - for mobile users
 
+p - 14px
+h4 -16px
+h3 - 18px
+h2 - 20px
+h1 - 23px
 
+*/
+
+p {
+  font-size: 14px !important;
+}
+
+h4 {
+  font-size: 16px !important;
+}
+h3 {
+  font-size: 18px !important;
+}
+
+h2 {
+  font-size: 20px !important;
+}
+
+h1 {
+  font-size: 23px !important; 
+}
+
+.header {
+ font-size: 30px !important;
+}
  .carouselItem {
   width: 425px !important;
   height: 275px !important;
@@ -145,9 +156,6 @@ p {
  .carousel-item .carousel-caption h3{
 font-size: 1em  !important;}
 
- .header {
-  font-size: 16pt !important;
- }
 
 }
 

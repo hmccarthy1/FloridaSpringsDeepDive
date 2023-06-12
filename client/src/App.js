@@ -52,7 +52,7 @@ function App() {
 
           <div style={{position: 'fixed', left: 0, top: 0, width: '100vw'}} className=''><Header className='col-12 pl-3'/></div>
           
-          <div className='row'>
+          <div className='row ml-0 mr-0'>
 
           <div style={{height: '93vh', backgroundColor: '#111', position: 'fixed', top: '7vh', left: '0', width: '10vw'}} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
             <Sidebar />

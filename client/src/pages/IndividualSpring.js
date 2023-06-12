@@ -20,7 +20,7 @@ return (<>
 
 {/* Wrapper for the main spring view portion */}
 
-<div className='col-12 row'>
+<div className='col-12 row m-0 justify-content-center'>
     
 {/* Section for the spring title, description, and basic info - address, amenity count, etc - col-6 on XL and LG screens, col-12 on anything else */}
 
