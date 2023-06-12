@@ -30,9 +30,9 @@ const AmenitiesAccordion = (props) => {
             default:  {return ''}
       }}
 
-        return(amenities.map( (amenity, index) => {
+        return(amenities.map( (amenity) => {
      return <> 
-     <Accordion.Item eventKey={index}>
+     <Accordion.Item eventKey={amenity.amenityType}>
         <Accordion.Header>{findAmenityIcon(amenity)} {amenity.amenityType} 
          </Accordion.Header>
         <Accordion.Body className='text-left'>

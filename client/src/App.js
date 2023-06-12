@@ -16,6 +16,7 @@ import Sidebar from './components/Sidebar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IndividualSpring from './pages/IndividualSpring';
 import IndividualAmenity from './pages/IndividualAmenity';
+import SearchPage from './pages/SearchPage';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -66,19 +67,16 @@ function App() {
                   element={<Signup />} />
                 <Route
                   path='/spring/:springId'
-
-                  element={<IndividualSpring></IndividualSpring>}
-
-                />
+                  element={<IndividualSpring></IndividualSpring>}/>
                 <Route
                   path='/spring/:springId/:amenityID'
-                  element={<IndividualAmenity></IndividualAmenity>}
-
-
-                />
+                  element={<IndividualAmenity></IndividualAmenity>}/>
                 <Route
                   path='/'
                   element={<Home></Home>} />
+                  <Route
+                  path='/search'
+                  element={<SearchPage></SearchPage>}/>
               </Routes>
             </div>
           </div>

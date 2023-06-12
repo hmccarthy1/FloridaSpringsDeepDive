@@ -146,9 +146,9 @@ h1 {
 }
 
 .header {
- font-size: 30px !important;
+  font-size: 30px !important;
 }
- .carouselItem {
+.carouselItem {
   width: 425px !important;
   height: 275px !important;
   padding: 0px !important;
@@ -156,19 +156,38 @@ h1 {
  }
 
  .carouselItem img {
-  width: 475px !important;
-  height: 300px !important;
-  padding: 0px !important;
-  margin-right: 0px !important;
- }
-
- .accordion-body {
+   width: 475px !important;
+   height: 300px !important;
+   padding: 0px !important;
+   margin-right: 0px !important;
+  }
+  
+  .accordion-body {
     background-color: white;
- }
+  }
+  
+  .carousel-caption h3  {
+   font-size: 14px  !important;
+  }
+  
+  .form-check-input {
+    height: 30px !important;
+    width: 30px !important;
+  }
 
+  .form-check {
+    height: 35px !important;
+  }
 
-
-
+  .form-check-label {
+    font-size: 18px !important;
+    margin-left: 1em !important;
+    text-align: center !important;
+    max-height: 30px !important;
+    margin-top: 0px !important;
+    vertical-align: center !important;
+  }
+  
 }
 
 @media only screen and (min-width: 601px) {
