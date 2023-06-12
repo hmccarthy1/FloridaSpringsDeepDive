@@ -15,6 +15,7 @@ import Home from './pages/home';
 import Sidebar from './components/Sidebar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IndividualSpring from './pages/IndividualSpring';
+import IndividualAmenity from './pages/IndividualAmenity';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -46,33 +47,39 @@ function App() {
       {/* // Router */}
 
       <Router >
-        <div className="App column" style={{width: '100vw', maxWidth: '100vw'}}>
+        <div className="App column" style={{ width: '100vw', maxWidth: '100vw' }}>
 
           {/* Universal elements */}
 
-          <div style={{position: 'fixed', left: 0, top: 0, width: '100vw'}} className=''><Header className='col-12 pl-3'/></div>
-          
+          <div style={{ position: 'fixed', left: 0, top: 0, width: '100vw' }} className=''><Header className='col-12 pl-3' /></div>
+
           <div className='row ml-0 mr-0'>
 
-          <div style={{height: '93vh', backgroundColor: '#111', position: 'fixed', top: '7vh', left: '0', width: '10vw'}} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
-            <Sidebar />
-          </div>
+            <div style={{ height: '93vh', backgroundColor: '#111', position: 'fixed', top: '7vh', left: '0', width: '10vw' }} className='col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2 col-2'>
+              <Sidebar />
+            </div>
 
-          <div className='col-xl-11 col-lg-11 col-md-12 col-sm-10 col-xs-10 col-10 bodyContent ml-0 p-2 justify-content-center' style={{left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%', width: '90vw'}}>
-            <Routes>
-              <Route
-                path='/signup'
-                element={<Signup />} />
-            <Route
-            path='/spring/:springId'
-            
-            element={<IndividualSpring></IndividualSpring>}
-            
-            />
-              <Route
-                path='/'
-                element={<Home></Home>} />
-            </Routes>
+            <div className='col-xl-11 col-lg-11 col-md-12 col-sm-10 col-xs-10 col-10 bodyContent ml-0 p-2 justify-content-center' style={{ left: '10vw', top: '7vh', position: 'fixed', overflow: 'scroll', height: '95%', width: '90vw' }}>
+              <Routes>
+                <Route
+                  path='/signup'
+                  element={<Signup />} />
+                <Route
+                  path='/spring/:springId'
+
+                  element={<IndividualSpring></IndividualSpring>}
+
+                />
+                <Route
+                  path='/spring/:springId/:amenityID'
+                  element={<IndividualAmenity></IndividualAmenity>}
+
+
+                />
+                <Route
+                  path='/'
+                  element={<Home></Home>} />
+              </Routes>
             </div>
           </div>
 

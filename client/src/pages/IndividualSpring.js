@@ -50,7 +50,7 @@ return (<>
 
     </div>
     <div className='row col-12 justify-content-center'>
-        <AmenitiesAccordion amenities = {data?.spring?.amenities}></AmenitiesAccordion>
+    <AmenitiesAccordion amenities = {data?.spring?.amenities} spring = {springId}></AmenitiesAccordion>
     </div>
     </> 
         )}

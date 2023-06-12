@@ -29,6 +29,7 @@ export const QUERY_USER = gql`
         Caption
       }
       amenities {
+        _id
         amenityType
         amenityDescription
         Cost
@@ -61,10 +62,7 @@ export const QUERY_USER = gql`
   query singleSpringAmenities($springId: ID!) {
     spring(springID: $springId) {
       amenities {
-        amenityType {
-          amenityType
-          amenityIconURL
-        }
+        amenityType 
       }
     }
   }

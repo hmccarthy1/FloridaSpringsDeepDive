@@ -61,6 +61,7 @@ const typeDefs = gql`
   type Query {
     users: [User]
     spring(springID: ID!): Spring
+    amenity(amenityID: ID!): Amenity
     
   }
 
