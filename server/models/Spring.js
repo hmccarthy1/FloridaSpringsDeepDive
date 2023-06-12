@@ -39,9 +39,9 @@ const amenityReviewsSchema = new mongoose.Schema({
 
 const amenitySchema = new mongoose.Schema({
     amenityType: {
-        type: Schema.Types.ObjectId,
+        type: String,
         required: true,
-        ref: 'amenityTypeChoices' 
+        enum: ['Camping', 'Canoeing/Kayaking', 'Scuba Diving', 'Hiking', 'Snorkeling/Freediving', 'Tubing', 'Bird Watching', 'Boat Tours', 'Nature Garden'] 
         },
     amenityDescription: {
         type: String, 

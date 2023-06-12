@@ -29,9 +29,7 @@ export const QUERY_USER = gql`
         Caption
       }
       amenities {
-        amenityType {
-          amenityType
-        }
+        amenityType
         amenityDescription
         Cost
         amenityWebsite
@@ -52,6 +50,22 @@ export const QUERY_USER = gql`
         password
         firstName
         lastName
+    }
+  }
+  
+  `
+
+
+  export const singleSpringAmenities = gql`
+  
+  query singleSpringAmenities($springId: ID!) {
+    spring(springID: $springId) {
+      amenities {
+        amenityType {
+          amenityType
+          amenityIconURL
+        }
+      }
     }
   }
   

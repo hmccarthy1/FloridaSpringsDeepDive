@@ -46,7 +46,7 @@ const springSeed = {
             "address": "9460 East Turner Camp Road, Inverness, Fl 34450.",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "Snorkeling and freediving at Gum Slough is definitely a breathtaking experience. It's secluded because not people are even aware of it, and it takes quite a bit of work to reach. It's worth the kayak trip thought, as this is one of the most beautiful springs in FL. Stunning rock formations, crystal-clear waters, and plenty of local wildlife makes this spring a must-see for any freedivers looking to hit all of Florida's good spots.",
                     "Cost": "FREE",
                     "amenityMedia": [
@@ -66,7 +66,7 @@ const springSeed = {
 
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityType": "Canoeing/Kayaking",
                     "amenityDescription": "You have to Canoe/Kayak up to Gum Slough Springs, so this amenity isn't really an option. The trek up is of intermediate difficulty, but it does have some stunning views and side springs along the way. You may have to portage your canoe/kayak over a couple of shallow spots, but nothing too crazy.",
                     "Cost": "FREE",
                     "amenityMedia": [
@@ -137,7 +137,7 @@ const springSeed = {
             "admission": " Day use for the recreation / head spring area is $12/person",
             "amenities": [
             {
-                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityType": "Canoeing/Kayaking",
                     "amenityDescription": "NOTE: as of the time of this being written, the spring run at Juniper is temporarily closed due to a wildfire. The Juniper Spring run is one of the most famous kayak runs in the country. It has won several nation-wide awards before and is frequently featured in camping magazines. The run is 7 miles long, and you can pay for a shuttle to haul you back to the launch. The average trip is about 4 hours.",
                     "Cost": "There is a $6 launch fee and a $12 haul-back fee",
                     "amenityMedia": [
@@ -157,7 +157,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83678"          
             },
             {
-                "amenityType": "6464f912994a58322e8a0b7d",
+                "amenityType": "Snorkeling/Freediving",
                 "amenityDescription": "You can snorkel in the head springs at the Juniper Springs recreation area. The spring is one of the 'healthiest' in Florida, with very low salt levels and high purity. There isn't much exceptional about the spring here, but you can see eels which aren't typically found in other springs.",
                 "Cost": "No additional cost, just the general admission fee, which is $12/person",
                 "amenityMedia": [
@@ -177,7 +177,7 @@ const springSeed = {
                 "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83676"
             },
             {
-                "amenityType": "6464f912994a58322e8a0b7b",
+                "amenityType": "Hiking",
                 "amenityDescription": "NOTE: temporarily closed due to wildfire. There are a couple of options for hiking at Juniper springs. Part of the Florida Trail passes through the recreation area, there is a Juniper Run Nature trail. This is a short trip, only .8 miles round-trip, but it does have some interesting sights along the way.",
                 "Cost": "No additional cost, just admission which is $12/person.",
                 "amenityMedia": [
@@ -197,7 +197,7 @@ const springSeed = {
                 "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recreation/recarea/?recid=83679&actid=50"
             },
             {
-                "amenityType": "6464f912994a58322e8a0b7f",
+                "amenityType": "Camping",
                 "amenityDescription": "The camping at Juniper Springs is very popular for it's well-shaded areas and close access to the other amenities. There are several different types of campsites available, such as: standard nonelectric, tent-only nonelectric, group picnic area, overnight, and day.",
                 "Cost": "The cost varies season to season and isn't posted with static rates on their website, but sites typically are about $40/night.",
                 "amenityMedia": [
@@ -256,7 +256,7 @@ const springSeed = {
             "admission": "Admission to the state park is $2/Person, with children under 5 getting in for free.",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b83",
+                    "amenityType": "Bird Watching",
                     "amenityDescription": "Part of Rainbow Springs is a section of the Great Florida Birding and Wildlife Trail, there are quite a variety of birds available for watching here, including woodpeckers, hawks, owls, and various songbirds.",
                     "Cost": "Free, there is no additional cost for bird watching at Rainbow springs, just the admission for the park which is $2/person",
                     "amenityMedia": [
@@ -277,7 +277,7 @@ const springSeed = {
 
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7f",
+                    "amenityType": "Camping",
                     "amenityDescription": "Camping at Rainbow Springs is definitely an amazing experience, being in such close proximity to some of the most intoxicating rivers and springs in florida is a treat. There are sites with both water & electric, a camp store, and a dump station.",
                     "Cost": "Most basic tent sites start at about $30/night, but rates vary depending on season, availability, and site type.",
                     "amenityMedia": [
@@ -297,7 +297,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/rainbow-springs-state-park/experiences-amenities"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "There are several options for walking/hiking in Rainbow Springs. Rainbow springs Yellow Trail offers strolls through large trees, some small waterfalls, and the opportunity to see plenty of wildlife. Rainbow Springs Blue Trail offers some amazing views of the river as well as some of the man-made formations. Rainbow Springs White & Yellow Trail has plenty of foliage, with many sections running through tall and shady trees.",
                     "Cost": "There is no additional cost for hiking, just the admission to the park, which is $2/person.",
                     "amenityMedia": [
@@ -366,7 +366,7 @@ const springSeed = {
             "admission": "For snorkelers, admission mon-fri is $18/person, and admission sat & sun is $25/person. Please note that this does not include mask/snorkel/fins WHICH ARE REQUIRED in order to snorkel. Also worth noting that snorkeling Devil's den is by appointment only, and at the time of writing this the reservations are limited to 90 mins (covid).",
             "amenities": [
                 {
-                    "amenityType" : "6464f912994a58322e8a0b7d",
+                    "amenityType" : "Snorkeling/Freediving",
                     "amenityDescription": "Snorkeling Devil's Den is truly an amazing experience. It's formed out of a large cavernous-like structure in a rock formation, you walk down a few long flights of steps to reach the entrance to the spring itself, where the only sunlight streams in from the circular opening to the sky 20 or 30 feet above. The cavern is 120' wide, and boasts crystal-clear 72 degree water. There are several species of fish that live inside to observe, and there is quite a stunning view underwater. Worth noting that this (privatized) spring is extremely populer, especially on holidays/weekends (particularly in the summertime). Be prepared for crowds and a fair bit of noise unless you're going early in the day on a weekday off-season.",
                     "Cost": "For snorkelers, admission mon-fri is $18/person, and admission sat & sun is $25/person. Please note that this does not include mask/snorkel/fins WHICH ARE REQUIRED in order to snorkel. Also worth noting that snorkeling Devil's den is by appointment only, and at the time of writing this the reservations are limited to 90 mins (covid). Gear rental for snorkelers is $12/person",
                     "amenityMedia": [
@@ -386,7 +386,7 @@ const springSeed = {
                     "amenityWebsite": "http://www.devilsden.com/snorkeling.html"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b81",
+                    "amenityType": "Scuba Diving",
                     "amenityDescription": "Devil's Den Spring is a pretty famous dive spot due to it's unique nature and stunning views. The site is frequently used for SCUBA training, particularly for Open water certs, and occasionally night dives.",
                     "Cost": "Base admission is $38/diver, air fills are $8/person, and full equipment rentals (mask, snorkel, fins, booties, regulator, BCD, tank, wetsuit, weights, and LED light) are $45/person. Night dives must be booked minimum 7 days in advance, and cost varies depending on season. Out of season (Nov 7 - Mar 13) it costs $10/person with a $100 minimum, and in season it costs $15/person with a $250 minimum",
                     "amenityMedia": [
@@ -406,7 +406,7 @@ const springSeed = {
                     "amenityWebsite": "http://www.devilsden.com/diving.html"
                 },
                 {
-                    "amenityType": "647e8a58720171439903a9a9",
+                    "amenityType": "Nature Garden",
                     "amenityDescription": "Hands down the best garden I've ever seen (sorry mom) - Cedar Lakes Woods & Gardens works closely with Devil's Den Springs, and it's only a 2 or 3 minute drive down the road to access. Cedar Lakes Woods & Gardens is an extremely large natural garden that was hand-crafted from 100+ year old limestone. It was built up over 30+ years by a nature-loving individual, and boats an extremely wide array of plants. The botanical garden totals 20 acres, and includes many animals such as Koi fish, a pet cat, a goose, and a 100 LB catfish name Big Ben.",
                     "Cost": "The cost for daily admission is as follows: $12/adult (13+), $7/Child (6-13), Free for children 5 and under, and $6 for any military members. There is a discount for group rates - $11/adult for 12-25 people, and $10/adult for groups of 25 or more people",
                     "amenityMedia": [
@@ -457,7 +457,7 @@ const springSeed = {
             "amenities": [
 
                 {
-                    "amenityType": "6464f912994a58322e8a0b87",
+                    "amenityType": "Boat Tours",
                     "amenityDescription": "Silver springs is famous for it's glass-bottomed boat tours. You have the ability to see all the wildlife underneath you as you cruise along the crystal-clear river, seeing several first-magnitude springs, as well as other cool sights such as statues left at the bottom of springs from the numerous movie sets Silver Springs has played host to over the years.",
                     "Cost": "For the 30 minute tour - Adults are $13/person, seniors (55+) are $12/person, Children (6-12) are $12/person, and infants (5-) are free. \n For the 90 minute tour - Adults are $25/person, seniors (55+) are $20/person, children (6-12) are $20/person, and infants (5-) are free.",
                     "amenityMedia": [
@@ -477,7 +477,7 @@ const springSeed = {
                     "amenityWebsite": "https://silversprings.com/glass-bottom-boats/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "Silver springs has several hiking trails of varying length and difficulty. Each trail offers it's own unique sights, but be aware that some of the trails are right near the tourist-y section of silver springs. I would recommend a longer trail that offers you a better chance of seeing some real nature.",
                     "Cost": "There's no additional cost, just entrance to the park, which is $8 per vehicle with 2-8 people, $5 for single occupant vehicles/motorcycles, $2/person for pedestrians/cyclists/etc, $4 launch fee per canoe/kayak, and $2/person for entrance to the Silver River Museum",
                     "amenityMedia": [
@@ -498,7 +498,7 @@ const springSeed = {
                     "amenityWebsite": "https://silversprings.com/hiking/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityType": "Canoeing/Kayaking",
                     "amenityDescription": "Whether you prefer kayaks, canoes, or paddleboards, Silver Springs has you covered. The trip from the head springs to where Silver Springs flows into the Ocklawaha River is about 5 miles, with crystal-clear water until the very last stretch, where the river water begins to blend with the spring water. You can choose to paddle all the way upstream and have a shuttle take you back, or you can navigate smaller routes instead and paddle back yourself.",
                     "Cost": "The cost can vary depending on season and demand, but at the time of writing this the kayaks go for about $30/hr, the stand-up paddleboards go for about $35/hr, and the 2-person canoes go for about $45/hour.",
                     "amenityMedia": [
@@ -518,7 +518,7 @@ const springSeed = {
                     "amenityWebsite": "https://silversprings.com/paddling/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b83",
+                    "amenityType": "Bird Watching",
                     "amenityDescription": "Silver Springs has quite a variety of natural wildlife, and that includes plenty of birds! They have a great limpkin population, as well as many other types of birds such as hawks, eagles, owls, and mallards, and plenty of wild turkey.",
                     "Cost": "No additional cost for bird watching - just the normal park admission, which is $8 per vehicle with 2-8 people, $5 for single occupant vehicles/motorcycles, $2/person for pedestrians/cyclists/etc, $4 launch fee per canoe/kayak, and $2/person for entrance to the Silver River Museum",
                     "amenityMedia": [
@@ -538,7 +538,7 @@ const springSeed = {
                     "amenityWebsite": "https://silversprings.com/wildlife-birding/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7f",
+                    "amenityType": "Camping",
                     "amenityDescription": "Silver Springs offers a wide variety of camping options - from cabins to RVs to primitive tent sites. Camping here offers the unique ability to see some of Silver Springs best attractions away from the large tourist crowds. Sites can be in high demand, particularly in the summer and around holidays, so make sure you book early if you want to spend a night or two camping at Silver Springs.",
                     "Cost": "Cost varies depending on season and demand, but cabins are around $110/night, and normal tent sites are about $24/night. Call for pricing on primtive and group primitive sites",
                     "amenityMedia": [
@@ -593,7 +593,7 @@ const springSeed = {
             "admission": "Admission is $12/person for day use, or $75/person for an annual day use pass. Please note that there is no parking fee during weekdays, but weekends require a $15 parking pass between May 27 - Sept 4.",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "Silver Glen Springs is a pretty decent place to snorkel & freedive. There are lots of fish swirling around to get a good look at.",
                     "Cost": "No additional cost, just entrance to the park - $12/person for day use, or $75/person for an annual day use pass. Please note that there is no parking fee during weekdays, but weekends require a $15 parking pass between May 27 - Sept 4.",
                     "amenityMedia": [
@@ -614,7 +614,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83582"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "There is one hiking trail named 'Lake George Trail', a 2-mile round trip experience that twists and turns through the nearby woods",
                     "Cost": "No additional cost, just admission - $12/person for day use, or $75/person for an annual day use pass. Please note that there is no parking fee during weekdays, but weekends require a $15 parking pass between May 27 - Sept 4.",
                     "amenityMedia": [
@@ -664,7 +664,7 @@ const springSeed = {
             "admission": "Admission for Salt Springs is $6.50/person",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7f",
+                    "amenityType": "Camping",
                     "amenityDescription": "Salt springs has a large campground with sites for both RVs/trailers & tent-only sites. The sites are decently shaded and a good distance away from the day-use area.",
                     "Cost": "Cost varies depending on season and availability, but at the time of writing this it's about $40/night for tent sites, and about $115/night for a full hookup site.",
                     "amenityMedia": [
@@ -684,7 +684,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83581"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "There is a small hiking trail at Salt Springs, a 2 mile round-trip experience that ends at an observation deck.",
                     "Cost": "No additional cost, just admission to the park - $6.50/person",
                     "amenityMedia": [
@@ -704,7 +704,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83581"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "Snorkeling at Salt Springs can definitely be an interesting experience. It's laden with hundreds of crabs and suckerfish, so make sure you don't get too close - the crabs can and will pinch you. The spring does have a lot of rock formations with nooks and crannies that aren't bad for freediving, but having to constantly mind the many crabs in those nooks and crannies can definitely get annoying.",
                     "Cost": "No additional cost, just entrance to the park - $6.50/person",
                     "amenityMedia": [
@@ -756,7 +756,7 @@ const springSeed = {
             "admission": "Alexander Springs has an admission fee of $12/person, or a $75 annual day use pass.",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "Snorkeling/Freediving is an extremely popular activity at Alexander Springs. The springs may look small on the surface, but underneath the water the spring actually expands quite a bit into a large area that is an excellent area for freediving. The current coming up from the aquifer is also very strong, so it can offer a nice challenge for those looking to push themselves.",
                     "Cost": "No additional cost, just entry to the park - $12/person, or a $75 annual day use pass.",
                     "amenityMedia": [
@@ -776,7 +776,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83546"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b81",
+                    "amenityType": "Scuba Diving",
                     "amenityDescription": "Alexander Springs is a very popular spot for beginner divers and dive instructors who want a safe, risk-free way to train things such as buoyancy control. It isn't deep enough for premature ascents to cause serious cases of the bends, and the nature of the spring itself makes it easy to manage a small to moderate sized dive group. Serious divers won't get much value from this dive, as there's no cave systems or deep water to explore, but it can be a great place to build basic skills.",
                     "amenityCost": "Nothing on the website to indicate an additional cost - I believe diving is just the cost of admission - $12/person, or a $75 annual day use pass.",
                     "amenityMedia": [
@@ -796,7 +796,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.fs.usda.gov/recarea/florida/recarea/?recid=83546"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "There is one small mile-long trail at Alexander springs - Timicuan trail. This trail winds through the woods of Ocala National Forest, and hits a lot of the habitats you'd expect to see in the forest.",
                     "Cost": "No additional cost, just entrance to the park - $12/person, or a $75 annual day use pass.",
                     "amenityMedia": [
@@ -847,7 +847,7 @@ const springSeed = {
             "admission": "Free",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "Royal Springs is characterized by one very large, wide, and deep hole. This makes it a very good spot for freediving, particularly those who want to train to reach greater depths more consistently and improve their breath hold. It also offers a somewhat unique experience, as you can dive off the large platform 20 or so feet above straight into a freedive. As far as snorkeling, there isn't much particularly noteworthy here, but a positive aspect of this spring as a whole is it lesser-known than many of the other springs in the area, which keeps crowds down and the price is free.",
                     "Cost": "FREE. That's it.",
                     "amenityMedia": [
@@ -914,7 +914,7 @@ const springSeed = {
             ],
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "As an avid Florida freediver, Blue Springs is my go-to for freediving. If you start downstream, it's an absolutely beautiful swim upstream to the head spring, where one of the deepest springs in FL is located. The entrance to the springs is fairly sizeable and the spring itself is a good 50+ feet deep. There is a fallen log over the entrance which can make for some extremely cool freediving experiences and shots. Along the way down, there are numerous small side caves and crevices to explore - just be careful not to overdo it. If you're lucky, you can see manatees diving in the springs too!",
                     "Cost": "No additional cost, just the admission to the park, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -939,7 +939,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "One of the best things to do at any spring is to build up a sweat before you hit the water, and the hiking trails allow to do exactly that. The hiking trail at blue springs is 3.6 miles one way if you walk it to completion, but there are several spots along the way that are good turn-around points if you aren't quite up for a hike that long. There are numerous species of plants and animals to observe along the way, and there are helpful signposts along the way giving you info on various berries, birds, etc. This trail ends linking up to the river that the spring itself feeds in to. There's also a boardwalk along the river leading up to the head spring, culminating in an obsveration deck, but it's close to the center of activity for a very popular spring so there isn't much nature around the boardwalk.",
                     "Cost": "No additional cost, just admission to the park, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -959,7 +959,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b87",
+                    "amenityType": "Boat Tours",
                     "amenityDescription": "Boat tours have become increasingly popular at Blue Springs. The tour takes you along the St Johns River, seeing several points of interest, likely a great deal of wildlife, etc. The boat tours currently run at 10 AM and 1 PM. The boat tour is two hours long, so be sure to bring some bottled water with you. Be prepared to see things such as alligator, gar, and other cool water animals as well. The boat tour is wheelchair accessible.",
                     "Cost": "The cost is (as of the time I'm writing this) $28.17 for adults (13-64), $25.35 for seniors (65+), $18.78 for children (3-12), and free for infants (2-).",
                     "amenityMedia": [
@@ -979,7 +979,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b83",
+                    "amenityType": "Bird Watching",
                     "amenityDescription": "There are several types of birds regularly found at Blue Springs, including many Florida Scrub-Jays, several different kinds of woodpeckers, and the occasional owl.",
                     "Cost": "No additional cost, just entrance to the park, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -999,7 +999,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b85",
+                    "amenityType": "Tubing",
                     "amenityDescription": "Tubing is very popular activity at Blue Springs. The entrance down river is where most people enter, as it's only an eigth of a mile or so of light traveling upriver in an inner tube to reach the head spring. The water at Blue Springs is crystal clear, and even from a tube you can see plenty of wildlife in the water such as gar, assorted fish, and manatees. Inner tubes are available at the store on-site and are also available for rent.",
                     "Cost": "Can't find any info on the website about the cost of inner tubes, and I don't use tubes myself so I've never personally used the service, but prices are always reasonable at Blue Springs",
                     "amenityMedia": [
@@ -1019,7 +1019,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7f", 
+                    "amenityType": "Camping", 
                     "amenityDescription": "Camping at Blue Springs is definitely a very fun experience. It's always nice to be able to sleep in and still be able to hit the water whenever you want without having to worry about the park shutting down due to capacity. The campground is located just before the exit to the parking lot for the springs themselves, so you're only a very short walk away from the water. The camping at Blue Springs is primarily primitive tent spots.",
                     "Cost": "The cost will vary with season and demand, but at the time of writing this, it costs about $24/site/night",
                     "amenityMedia": [
@@ -1039,7 +1039,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityType": "Canoeing/Kayaking",
                     "amenityDescription": "Kayaking/Canoeing is extremely popular at Blue Springs. There's a lot of really cool things you can see from a kayak, but one of the most sought-after sights is manatees swimming up and down the Spring Run. Blue Springs is a protected manatee habitat, and shuts down during the winter months because the manatees seek out the then relatively cool (72 degrees) waters of the spring run, when the water in the river itself is much colder. There are also hundreds of gar to be seen up and down the spring run, but particularly near the mouth where it meets up with the St Johns River, away from the swimmers. There are kayaks, canoes, and stand-up paddleboards available at the shop.",
                     "Cost": "Cost will vary depending on season and demand, but at the time of writing this the prices are as follows: \n Kayak (1 hr) - $20.66 \n Tandem Kayaks (1 hr) - $28.17 \n 2-seat canoe (1 hr) - $20.66 \n Paddleboards (1 hr) - $20.66 \n Kayak (4 hrs) - $35.68 \n Tandem Kayaks (4 hrs) - $46.01 \n 2-seat canoes (4 hrs) - $36.62 \n Paddleboards (4 hours) - $35.68",
                     "amenityMedia": [
@@ -1059,7 +1059,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/blue-spring-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b81",
+                    "amenityType": "Scuba Diving",
                     "amenityDescription": "Due to it's very respectable depth, the cool rock formations, and the unique nature of the spring itself, Blue Springs is one of the most popular springs for diving in the state, probably only behind Ginnie and maybe Devil's Den. There are several small cave/cavern-like areas to explore on the way down, just make sure you're cave/cavern certified and you have a dive light on you, as well as all other appropriate safety equipment. There are several dive shops who will allow you to do your cert dives here, and it's good to practice for your cavern cert in a safe and relatively risk-free area. If you're lucky, you'll be able to dive alongside some manatees playing in the head spring!",
                     "Cost": "The cost through Florida Dive Company for guided dives is $150 for a one-tank/one-hour dive, and $225 for a two-tank/two-hour dive.",
                     "amenityMedia": [
@@ -1111,7 +1111,7 @@ const springSeed = {
             ],
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "Snorkeling/Freediving is fairly popular at Gilchrist Blue, but due to the relatively small nature of the spring itself, as well as how crowded it can get, you won't see a lot of serious freedivers here. The spring itself is a good 10-15' deep in it's deeper areas, and can be a good area to snorkel, but there's not a super wide array of wildlife to view or cool formations to explore, so this spring ends up being more of a local weekend hangout than a real nature exploration experience.",
                     "Cost": "No additional cost, just entrance to the park - $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -1131,7 +1131,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/gilchrist-blue-springs-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "There are 23 total campsites at Gilchrist Blue, 16 for RVs with hookup & seven primitive tent sites.",
                     "Cost": "Both the primitive sites and the RV sites are about $18/night, but prices are dependant upon season and demand.",
                     "amenityMedia": [
@@ -1151,7 +1151,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/gilchrist-blue-springs-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "There is a 3.6 mile loop available at Gilchrist Blue, which does offer a good degree of diversity in terms of plant life and wildlife. The loop takes a bit over an hour to complete, and you can a lot of cool formations along the way. It can get pretty popular, especially in the summer, so if you want the best chance of peace & quiet, and the option to see cool wildlife, go very early in the day.",
                     "Cost": "No additional cost, just entrance to the park - $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -1180,7 +1180,7 @@ const springSeed = {
 
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityType": "Canoeing/Kayaking",
                     "amenityDescription": "You can rent canoes and kayaks to explore the spring run at Gilchrist Blue, but there is no shuttle service available at the time of me writing this, so make sure you plan on coming back the way you came.",
                     "Cost": "The cost varies depending on season and demand, but according to the website you book at, it's about $45 for a 'bridge-to-bridge' trip, about a 10 mile round-trip experience.",
                     "amenityMedia": [
@@ -1215,7 +1215,7 @@ const springSeed = {
             "admission": "Admission to Ichetucknee springs is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7b",
+                    "amenityType": "Hiking",
                     "amenityDescription": "Ichetucknee Springs has three hiking trails on-site: Blue hole trail, A half-mile walk through the Ichetucknee forest and cypress floodplain leads to Blue Hole Spring, the largest spring in the park. Blue Hole Trail closes one hour before sunset. Trestle Point Trail,  This shaded path winds along the crystal-clear waters of the Ichetucknee River. The self-guided trail will take you back in time to the early 1900s when phosphate ore was mined in the area. This trail is approximately .75 miles. Pine Ridge Trail, A frequently overlooked area of the park is the majestic sandhill with its towering longleaf pine and wide open vistas. View the natural diversity of this unique and vanishing ecosystem. The is a self-guided, two-mile loop trail. ",
                     "Cost": "There is no additional fee for Hiking, you need only pay park admission, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -1240,7 +1240,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/ichetucknee-springs-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityType": "Canoeing/Kayaking",
                     "amenityDescription": "Kayaking or Canoeing down Ichetucknee River is a popular local pastime. There are several locations you can launch from, and shuttles can be arranged at the General Store near the south entrance. The full trip is about 45 mins paddling downstream.",
                     "Cost": "Cost for kayaks/canoes varies depending on season but is typically around $50 for a day rental.",
                     "amenityMedia": [
@@ -1262,7 +1262,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/ichetucknee-springs-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b81",
+                    "amenityType": "Scuba Diving",
                     "amenityDescription": "Diving at Ichetucknee springs is only allowed at Blue Hole, which is a huge underwater cavern that opens up from a very small opening on the surface. It can be an amazing experience for those who love to explore underground, just remember that you must be cavern/cave certified before attempting this dive as much of it will be in locations not directly below sunlight. You also must have a dive partner at all times.",
                     "Cost": "There is no additional fee for diving, you need only pay park admission, which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -1282,7 +1282,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/ichetucknee-springs-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": "Ichetucknee Springs has several areas available for Snorkeling/Freediving. If you wish to forego an inner tube, you can snorkel down the Ichetucknee River yourself, where you can see all kinds of cool wildlife such as manatees, river otter, alligators, and snakes. If you would like more of a traditional experience, there is a head spring at the North Entrance to Ichetucknee with some very cool features to explore. If you're a serious Freediver, you might want to consider Blue Hole. It's a giant underwater cavern, but enough lights shines through the surface entrance that you can swim around a bit near the mouth without having to worry, but the current coming up from the cavern is very strong, so you'll need some powerful legs and a length breath hold to truly enjoy it.",
 
 
@@ -1305,7 +1305,7 @@ const springSeed = {
 
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b83",
+                    "amenityType": "Bird Watching",
                     "amenityDescription": "Ichetucknee Springs is part of the Great Florida Birding Trail, and has a wide variety of birds that can be found depending on the season. Some of these include: eastern wild turkey, water birds, northern bobwhite, american kestrel, red-headed woodpeckers, bachman's sparrows, and barred owls.",
                     "Cost": "There is no additional fee for bird watching, it's just general admission to the park which is $6/person (2-8 people), $4 for single occupant vehicles, and $2/person for pedestrians, cyclists, etc.",
                     "amenityMedia": [
@@ -1325,7 +1325,7 @@ const springSeed = {
                     "amenityWebsite": "https://www.floridastateparks.org/parks-and-trails/ichetucknee-springs-state-park/experiences-amenities-0"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7f",
+                    "amenityType": "Camping",
                     "amenityDescription": "While there is no camping technically on-site at Ichetucknee Springs, there is a campground located only about 3 minutes away from the North Entrance, so we'll include it here.",
                     "Cost": "The rate for a primitive tent is 23/Night (up to two people a tent), the cost for a tent site with electricity is $40/night (up to two people a tent), and the cost for a 30 amp RV site is $45/night (up to two people). Additional people are an extra $6 each per night. Children 6 and under get in free.",
                     "amenityMedia": [
@@ -1391,7 +1391,7 @@ const springSeed = {
             "admission": "Admission for adults in the off-season is $15/person, admission for adults in on-season is $20/person. Children 5-12 get in for $5, children 4 and under get in free. Admission for certified full cave divers is $24/person, and all other divers get in for $32/person. There is also an annual cavern/cave dive pass for $400.",
             "amenities": [
                 {
-                    "amenityType": "6464f912994a58322e8a0b7f",
+                    "amenityType": "Camping",
                     "amenityDescription": "Camping at Ginnie is definitely a one-of-a-kind experience, waking up on right next to the most beautiful spring in the state and watching the sunrise reflecting off the water is truly an indescribable experience. You can start your day off with a refreshing dip in any of the several springs located at Ginnie, and you can beat the crowds that frequent Ginnie on the weekends. You should be aware that on holiday weekends such as Memorial Day, Ginnie springs because a huge party hub, with lots of drinking and other illicit behavior, so if that's not your scene make sure to avoid holiday weekends.",
                     "Cost": "Adult off-season rate - $25/person, Adult in-season rate - $30/person, Children 5-12 - $8/person, Children 4 and under - Free. There is also an electric and water site fee - $11 for standard and $22 for a group site.",
                     "amenityMedia": [
@@ -1412,7 +1412,7 @@ const springSeed = {
                     "amenityWebsite": "https://ginniespringsoutdoors.com/reservations-cancellations/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b81",
+                    "amenityType": "Scuba Diving",
                     "amenityDescription": "Diving at Ginnie springs is definitely a rare treat. It offers options for those looking for normal open-water dives, but it specializes in cave diving. There are large cave systems under Ginnie springs that can offer some truly spectacular views. Make sure you're cavern/cave certified and trained to the appropriate level before entering any caves.",
                     "Cost": "Fully certified cave divers or equivalent get in for $24/person, all other certified divers get in for $32/person. There is an annual cave/cavern dive pass for $400/person. There is all kinds of rental gear available, as well as new gear for purchase, but it's a bit on the pricey side so be prepared. The two deals you really need to know about are the full rental packages, which contain all the gear you could need for a dive. These packages are $70 with light, and $60 without a light.",
                     "amenityMedia": [
@@ -1432,7 +1432,7 @@ const springSeed = {
                     "amenityWebsite": "https://ginniespringsoutdoors.com/dive-sites/devils-spring-system/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b7d",
+                    "amenityType": "Snorkeling/Freediving",
                     "amenityDescription": " Ginnie springs has some of the best snorkeling and freediving in the country. It's incredibly scenic, with crystal clear waters, plenty of nooks & crannies to explore, and a good amount of wildlife if you're not there at a busy time. The Devil's Spring System is definitely the highlight of Ginnie Springs. It is made up of three different springs: The first is Devil's ear, which is a long, jagged crevass that is about 50 feet deep. It's a great spot for freedivers, as the rocky ledges make great handholds to speed your descent and, and turning upwards once you're at the bottom offers a breathtaking view. The second is Devil's eye, a deep and circular crater-like formation. This formation is a fun place to snorkel, but it really appeals to freedivers and SCUBA divers alike, as the bottom of the formation has slit-like openings that lead into the cave system underneath.  The last is Devil's ear, which is the closest to the Santa Fe river. It has an opening to a cave system at the bottom, but the current is incredibly strong. Devli's ear can commonly become covered with a layer of river water which can occasionally effect visibility.",
                     "Cost": "There is no additional cost for snorkeling or freediving, it's covered in the park admission - which is: Adult off-season rate - $25/person, Adult in-season rate - $30/person, Children 5-12 - $8/person, Children 4 and under - Free. There is also an electric and water site fee - $11 for standard and $22 for a group site.",
                     "amenityMedia": [
@@ -1452,7 +1452,7 @@ const springSeed = {
                     "amenityWebsite": "https://ginniespringsoutdoors.com/activities-rentals/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b85",
+                    "amenityType": "Tubing",
                     "amenityDescription": "For those looking for a more laid-back way to relax, consider tubing the Ginnie Spring System and the Santa Fe River. It's a good way to unwind, and sight-see along the river - including watching for local wildlife.",
                     "Cost": "The cost to rent inner tubes at Ginnie Springs is 7/day for a single tube, and 14/day for a double tube.",
                     "amenityMedia": [
@@ -1472,7 +1472,7 @@ const springSeed = {
                     "amenityWebsite": "https://ginniespringsoutdoors.com/activities-rentals/"
                 },
                 {
-                    "amenityType": "6464f912994a58322e8a0b89",
+                    "amenityType": "Canoeing/Kayaking",
                     "amenityDescription": "Canoeing/Kayaking down Ginnie Springs and the Santa Fe is a fun experience for a weekend getaway. It can go several miles in either direction, so make sure you paddle upstream on your way out so that you can float back.",
                     "Cost": "Canoes/Kayaks/Paddleboards can be rented for 3 hours for $15, or $30 for 6 hours.",
                     "amenityMedia": [

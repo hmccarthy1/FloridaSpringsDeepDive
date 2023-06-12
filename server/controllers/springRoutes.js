@@ -1,6 +1,5 @@
 const router = require('express').Router();
 const Spring = require('../models/Spring');
-const amenityTypeChoices = require('../models/amenityTypeChoices')
 
 router.post('/', async (req, res) => {
     try {

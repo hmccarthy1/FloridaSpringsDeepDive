@@ -34,7 +34,7 @@ const typeDefs = gql`
 
   type Amenity { 
     _id: ID
-    amenityType: amenityTypeChoices
+    amenityType: String!
     amenityDescription: String
     Cost: String
     amenityWebsite: String
@@ -61,7 +61,10 @@ const typeDefs = gql`
   type Query {
     users: [User]
     spring(springID: ID!): Spring
+    
   }
+
+
 
   type Auth {
     token: ID!

@@ -8,12 +8,17 @@ import { useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { SINGLE_SPRING } from '../utils/queries';
 import SpringCarousel from '../components/springCarousel';
+import AmenitiesAccordion from '../components/AmenitiesAccordion';
+import { singleSpringAmenities } from '../utils/queries';
 
 const IndividualSpring = (props) => { 
 
     const { springId } = useParams();
   const { loading, data } = useQuery(SINGLE_SPRING, {variables: {springID: springId}} );
+  const {loading: loadingAmenities, data: dataAmenities} = useQuery(singleSpringAmenities, {variables: {springId: springId}} );
   console.log('data', data)
+
+  console.log('dataAmenities', dataAmenities)
 
 
 return (<>
@@ -38,14 +43,20 @@ return (<>
     <div className='col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 row border border-primary p-0 justify-content-center'>
    
     {loading? (<div><h1>Loading, please wait</h1></div>) : (
-        <SpringCarousel springId={springId} />)}
-    </div>
-
-    <div className='col-12 mt-5'>
+       <><SpringCarousel springId={springId} />
+        <div className='col-12 mt-5 whiteSmoke m-0 p-0'>
 
         <h1 className='col-12 text-center'>Amenities</h1>
 
     </div>
+    <div className='row col-12 justify-content-center'>
+        <AmenitiesAccordion amenities = {data?.spring?.amenities}></AmenitiesAccordion>
+    </div>
+    </> 
+        )}
+    </div>
+
+    
 </div>
 
 

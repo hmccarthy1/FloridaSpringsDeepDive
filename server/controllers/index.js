@@ -17,7 +17,6 @@ router.post('/runseed', async (req, res) => {
   try {
     await Spring.deleteMany({});
     await Spring.create(springSeed.List)
-    
 
     res.status(200).send({message: "Seed ran successfully"});
 } catch (err) {

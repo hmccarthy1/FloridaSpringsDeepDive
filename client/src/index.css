@@ -46,11 +46,16 @@ code {
   
 }
 
+.whiteSmoke {
+  background-color: rgba(241, 238, 238, 0.902) !important;
+}
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5) !important;
-width: 100% !important;
+width: 85% !important;
 height: 20% !important;  
   padding: 0px !important;
+  word-wrap: normal;
   margin-right: 0px !important;
   margin-left: 0px !important;
   margin-bottom: 0px !important;
@@ -64,7 +69,12 @@ height: 20% !important;
   text-align: center !important;
   color: white !important;
   font-size: 1em !important;
-  line-height: 1.8 !important;
+  line-height: 1 !important;
+}
+
+
+.carousel caption h3 {
+  
 }
 
 .bodyContent {
@@ -74,7 +84,6 @@ height: 20% !important;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: black !important;
   position: absolute !important;
   top: 50% !important;
   bottom: 50% !important;
@@ -153,8 +162,14 @@ h1 {
   margin-right: 0px !important;
  }
 
- .carousel-item .carousel-caption h3{
-font-size: 1em  !important;}
+ .accordion-body {
+    background-color: white;
+ }
+
+ .btnSmall {
+  height: 50px !important;
+  font-size: 18px !important;
+ }
 
 
 }
@@ -197,4 +212,7 @@ font-size: 1em  !important;}
     font-size: 20pt !important;
    }
   
+   .btnSmall {
+    height: 50px !important;
+   }
 }
