@@ -169,24 +169,7 @@ h1 {
   .carousel-caption h3  {
    font-size: 14px  !important;
   }
-  
-  .form-check-input {
-    height: 30px !important;
-    width: 30px !important;
-  }
 
-  .form-check {
-    height: 35px !important;
-  }
-
-  .form-check-label {
-    font-size: 18px !important;
-    margin-left: 1em !important;
-    text-align: center !important;
-    max-height: 30px !important;
-    margin-top: 0px !important;
-    vertical-align: center !important;
-  }
   
 }
 

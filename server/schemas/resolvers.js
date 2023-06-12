@@ -16,7 +16,34 @@ const resolvers = {
    
        return spring
     
+      },
+    amenity: async (parent, {amenityID}) => {
+      try {
+
+      } catch (err) {return err}
+    },
+
+    allSprings: async () => {
+      try {
+        const springs = await Spring.find({});
+        return springs
+      } catch (err) {
+        return err
       }
+    },
+
+    filteredSprings: async (parent, {amenitiesList}) => {
+      try {
+        console.log('amenities', amenitiesList)
+        const springs = await Spring.find({
+          'amenities.amenityType': { $all: amenitiesList }
+        });
+        console.log('springs filtered', springs)
+        return springs
+      } catch (err) {
+        return err
+      }
+    }
 
 },
 

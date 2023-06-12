@@ -57,12 +57,17 @@ const typeDefs = gql`
 
 
   }
+
+  input AmenityInput {
+    amenityType: [String]!
+  }
   
   type Query {
     users: [User]
     spring(springID: ID!): Spring
     amenity(amenityID: ID!): Amenity
-    
+    allSprings: [Spring]
+    filteredSprings(amenitiesList: [String]): [Spring]
   }
 
 

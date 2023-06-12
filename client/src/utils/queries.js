@@ -68,3 +68,34 @@ export const QUERY_USER = gql`
   }
   
   `
+
+
+  export const allSprings = gql`
+  query AllSprings {
+    allSprings {
+      _id
+      address
+      admission
+      amenities {
+        Cost
+        _id
+        amenityDescription
+        amenityMedia {
+          Caption
+          _id
+          imageURL
+        }
+        amenityType
+        amenityWebsite
+      }
+      springCounty
+      springDescription
+      springMedia {
+        imageURL
+        _id
+        Caption
+      }
+      springName
+      springState
+    }
+  }`
