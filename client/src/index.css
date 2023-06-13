@@ -23,6 +23,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+svg {
+  width: 25px !important;
+  height: 25x !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -169,6 +174,11 @@ h1 {
   .carousel-caption h3  {
    font-size: 14px  !important;
   }
+
+.iconLarge {
+  width: 45px !important;
+  
+}
 
   
 }

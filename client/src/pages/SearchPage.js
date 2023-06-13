@@ -5,32 +5,56 @@ import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import SpringCard from '../components/springCard';
 import { useParams } from 'react-router-dom';
-import { useQuery } from '@apollo/client';
+import { useLazyQuery, useQuery } from '@apollo/client';
 import { SINGLE_SPRING, allSprings } from '../utils/queries';
 import SpringCarousel from '../components/springCarousel';
 import AmenitiesAccordion from '../components/AmenitiesAccordion';
 import { singleSpringAmenities } from '../utils/queries';
 import Form from 'react-bootstrap/Form';
+import { FilteredSprings } from '../utils/queries';
+
+
+
 
 
 const SearchPage = (props) => {
-
-  const {loading, data} = useQuery( allSprings );
-  console.log('spring data', data)
-  const staticData = data?.allSprings
+  
+  
+  const [formVisibility, setFormVisibility] = useState('');
+  const [resultsVisibility, setResultsVisibility] = useState('none');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [checked, setChecked] = useState([]);
+  const { loading, data } =  useQuery(FilteredSprings, {variables: {amenitiesList: checked, springNameSearch: searchTerm}} );
 
 
 const handleSubmit = async (event) => {
   event.preventDefault();
+  console.log('search term', searchTerm)
   console.log('checked', checked)
-
-  const filterOut = false
-
-  
+  console.log('data results', data)
+setFormVisibility('none')
+setResultsVisibility('')
 
 }
 
-  const [checked, setChecked] = useState([]);
+const handleSearchTermChange = (event) => {
+  setSearchTerm(event.target.value);
+  console.log('searchTerm', searchTerm)
+}
+
+const mapSpringCards = (data) => {
+  return (data?.filteredSprings?.map((spring) => {
+
+    return (
+      <SpringCard spring={spring._id} />
+    )
+  })
+  )
+
+}
+
+
+
 
 // Add/Remove checked item from list
 const handleCheck = (event) => {
@@ -41,7 +65,8 @@ const handleCheck = (event) => {
     updatedList.splice(checked.indexOf(event.target.value), 1);
   }
   setChecked(updatedList);
-  console.log(updatedList)
+  console.log(updatedList, 'updatedList');
+
 };
 
     const amenitesList = [
@@ -60,8 +85,8 @@ const handleCheck = (event) => {
         return amenitesList.map((amenity) => {
             return(
               <>
-              <div className='row col-12'>
-              <input value={amenity} type="checkbox" className='col-1' onChange={handleCheck}/>
+              <div className='row col-12 mt-1'>
+              <input value={amenity} type="checkbox" className='col-1 align-self-stretch' onChange={handleCheck}/>
               <div key={amenity} className='text-left col-11'>
                 <span>{amenity}</span>
               </div>
@@ -73,11 +98,11 @@ const handleCheck = (event) => {
     }
 
     return (<><h1>SearchPage</h1>
-    <div className='col-12 row justify-content-center m-0' >
+    <div className='col-12 row justify-content-center m-0' id='SearchForm' style={{display: formVisibility}}>
     <Form className='col-8 mt-5 border border-primary'>
       <Form.Group className="mb-3 mt-2" controlId="springName" >
         <Form.Label className='text-left col-12 ml-0 p-0'>Spring Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter email" />
+        <Form.Control type="text" placeholder="Enter email" value={searchTerm} onChange={handleSearchTermChange}/>
         
       </Form.Group>
 
@@ -91,6 +116,12 @@ const handleCheck = (event) => {
     </Form>
     </div>
 
+    <div style={{display: resultsVisibility}}><h1>{"Search Results ( " + data?.filteredSprings?.length + " )"}</h1></div> 
+    <div className='row col-12' style={{display: resultsVisibility}} >
+
+    {data? (mapSpringCards(data)) : (<div>"Loading, please wait"</div>) }
+
+    </div>
     </>)
 
 }

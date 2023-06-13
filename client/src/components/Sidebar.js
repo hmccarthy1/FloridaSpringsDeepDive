@@ -14,7 +14,7 @@ const styles = {
     backgroundColor: 'gray',
     width: '100%',
     height: '1px',
-    marginBottom: '.5rem'
+    marginBottom: '.5rem',
   },
   homeIcon: {
     color: 'white',
@@ -38,11 +38,11 @@ function Sidebar() {
     style: {
     
     },
-    classList: 'text-light'
+    classList: 'text-light' 
   }
   
-  const loggedIn = Auth.loggedIn()
-  console.log(loggedIn)
+  const userProfile = Auth.getProfile()?.data._id
+  console.log(userProfile, 'userProfile?')
 
   const { loading, data } = useQuery(allUsers);
   const users = data?.users || [];
@@ -52,39 +52,38 @@ function Sidebar() {
   return (
     <>
     <div style={styles.main} className=''>
-    <div className='divider' style={styles.divider}></div>
+    <div className='divider mt-1' style={styles.divider}></div>
     <Nav.Link href='/'><FontAwesomeIcon icon={faHouse} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
-    <div className='divider' style={styles.divider}></div>
+    <div className='divider mt-1' style={styles.divider}></div>
     <Nav.Link href='/favorites' ><FontAwesomeIcon icon={faHeart} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
-    <div className='divider' style={styles.divider}></div>
+    <div className='divider mt-1' style={styles.divider}></div>
     <Nav.Link  href='/search' ><FontAwesomeIcon icon={faMagnifyingGlass} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
-    <div className='divider' style={styles.divider}></div>
+    <div className='divider mt-1' style={styles.divider}></div>
     <Nav.Link href='/trending' ><FontAwesomeIcon icon={faArrowTrendUp} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider' style={styles.divider}></div>
 
-    <div className='divider' style={styles.divider}></div>
+    <div className='divider mt-1' style={styles.divider}></div>
     <Nav.Link href='/donate' ><FontAwesomeIcon icon={faCircleDollarToSlot} size="lg" style={styles.homeIcon} /></Nav.Link>
     <div className='divider'  style={styles.divider}></div>
     
-    <div className='divider' style={styles.divider}></div>
+    <div className='divider mt-1' style={styles.divider}></div>
     {Auth.getProfile() ? (
 
 <>
 
-
-  <Link to="/profile" style={linkStyles.style} className={linkStyles.classList}>
+  <Link to={
+    
+    userProfile? ('/user/' + userProfile) : ('/signup')
+    } style={linkStyles.style} className={linkStyles.classList}>
     <FontAwesomeIcon icon={faUser} size="lg" style={{ color: 'white', height: '100%' }} className='mr-3' />
   </Link>
 
-  <Link to="/search" style={linkStyles.style} className={linkStyles.classList}>
-    <FontAwesomeIcon icon={faMagnifyingGlass} size="lg" style={{ color: 'white', height: '100%' }} className='mr-3' />
-  </Link>
 
 
 </>
@@ -92,7 +91,7 @@ function Sidebar() {
 
   <>
   <div className='divider' style={styles.divider}></div>
-  <Nav.Link href='/donate' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
+  <Nav.Link href='/signup' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
   <div className='divider'  style={styles.divider}></div>
   </>
 

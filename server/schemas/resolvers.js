@@ -32,15 +32,72 @@ const resolvers = {
       }
     },
 
-    filteredSprings: async (parent, {amenitiesList}) => {
+    filteredSprings: async (parent, {amenitiesList, springNameSearch}) => {
       try {
-        console.log('amenities', amenitiesList)
-        const springs = await Spring.find({
-          'amenities.amenityType': { $all: amenitiesList }
+
+        
+
+        
+        
+        if (amenitiesList.length === 0 && springNameSearch == undefined) {
+          return await Spring.find({})
+        }
+        
+        else if (springNameSearch != undefined && amenitiesList.length === 0) {
+
+          // If there is a search term but no amenities, search for the term in the springName field
+          console.log('Search term but no amenities', springNameSearch)
+          const allSprings = await Spring.find({});
+          console.log('all springs', allSprings)
+          const springs = await Spring.find({
+          springName: { $regex:  springNameSearch }
         });
+         
+        console.log('springs filtered', springs)
+        
+        return springs
+        }
+        
+        else { 
+          
+      // IF
+          console.log('Search term', springNameSearch)
+        
+          if (springNameSearch != undefined) {
+          console.log('amenities', amenitiesList);
+          const springs = await Spring.find({
+          'amenities.amenityType': { $all: amenitiesList },
+          springName: { $regex: springNameSearch  }})
         console.log('springs filtered', springs)
         return springs
+          }
+          else {
+           console.log('No Search term');
+            console.log('amenities', amenitiesList);
+            const springs = await Spring.find({
+          'amenities.amenityType': { $all: amenitiesList },
+          })
+          console.log('springs filtered', springs)
+          return springs
+          }
+      };
+
+
       } catch (err) {
+        console.log(err)
+        return err
+      }
+    },
+    singleUser: async (parent, {userID}) => {
+     console.log('Hitting singleUser ')
+      try {
+
+        const foundUser = await User.findOne({_id: userID})
+        console.log('foundUser', foundUser)
+        return foundUser;
+
+      } catch (err) {
+        console.log(err)
         return err
       }
     }

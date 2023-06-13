@@ -34,7 +34,9 @@ router.get('/users', async (req, res) => {
 }),
 
 router.post('/:userID/favoriteSpring/:springId', async (req, res) => {
+    console.log('HITTING TOP')
     try {
+        console.log('HITTING')
         const userToPost = await User.findById(req.params.userID);
         console.log(userToPost.favoriteSprings);
         const found = false

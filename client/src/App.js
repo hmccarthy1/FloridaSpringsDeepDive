@@ -17,6 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import IndividualSpring from './pages/IndividualSpring';
 import IndividualAmenity from './pages/IndividualAmenity';
 import SearchPage from './pages/SearchPage';
+import ProfilePage from './pages/ProfilePage';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -77,6 +78,9 @@ function App() {
                   <Route
                   path='/search'
                   element={<SearchPage></SearchPage>}/>
+                  <Route
+                  path='/user/:userID'
+                  element={<ProfilePage></ProfilePage>}/>
               </Routes>
             </div>
           </div>

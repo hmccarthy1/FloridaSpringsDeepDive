@@ -8,6 +8,7 @@ const typeDefs = gql`
     password: String,
     firstName: String,
     lastName: String
+    favoriteSprings: [Spring]
   }
 
   type SpringReviews {
@@ -64,10 +65,11 @@ const typeDefs = gql`
   
   type Query {
     users: [User]
+    singleUser(userID: ID!): User
     spring(springID: ID!): Spring
     amenity(amenityID: ID!): Amenity
     allSprings: [Spring]
-    filteredSprings(amenitiesList: [String]): [Spring]
+    filteredSprings(amenitiesList: [String], springNameSearch: String): [Spring]
   }
 
 
