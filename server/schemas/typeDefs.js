@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
@@ -43,6 +45,14 @@ const typeDefs = gql`
 
   }
 
+  type springRating {
+    _id: ID
+    springLookup: ID
+    userLookup: ID
+    rating: Int
+  }
+
+
   type Spring {
     _id: ID
     springName: String
@@ -84,6 +94,7 @@ const typeDefs = gql`
     addUser(username: String!, email: String!, password: String!, firstName: String!, lastName: String!): Auth
     login(email: String!, password: String!): Auth
     adjustFavorites(userID: ID!, springID: ID!): Spring
+    adjustSpringRating(springLookup: ID!, userLookup: ID!, rating: Int!): springRating
   }
     `;
 

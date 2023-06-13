@@ -163,7 +163,7 @@ h1 {
 .header {
   font-size: 30px !important;
 }
-.carouselItem, .carousel-item-active {
+.slide, .carouselItem, .carousel-item-active {
   width: 425px !important;
   height: 275px !important;
   padding: 0px !important;
@@ -183,6 +183,7 @@ h1 {
   
   .carousel-caption h3  {
    font-size: 14px  !important;
+   width: 425px !important;
   }
 
 .iconLarge {

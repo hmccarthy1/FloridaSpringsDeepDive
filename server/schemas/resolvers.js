@@ -3,7 +3,7 @@ const User = require('../models/User');
 const Spring = require('../models/Spring')
 const { signToken } = require('../utils/auth');
 const mongoose = require('mongoose');
-
+const SpringRating = require('../models/SpringRating.js')
 const { ObjectId } = require('mongodb');
 
 const resolvers = {
@@ -129,7 +129,6 @@ Mutation: {
 
       return { token, user };
     },
-  
     adjustFavorites: async (parent, {userID, springID}) => {
 
    
@@ -169,10 +168,45 @@ Mutation: {
           return {message: 'There was a problem adding this spring to your favorites'}
       }
     
-  }
-  
+    },
+    adjustSpringRating: async (parent, {springLookup, userLookup, rating}) => {
+      try {
+        console.log('rating', rating)
+        // If rating is invalid, return error
 
-  }
+        
+        // Try to find existing rating for this spring and user
+        
+        const foundRating = await SpringRating.find({springLookup: springLookup, userLookup: userLookup});
+        const numberFound = foundRating.length;
+        console.log('numberFound', numberFound)
+        console.log('found', foundRating)
+        
+        // If there is no existing rating, create a new one
+
+        if (numberFound == 0) {
+
+
+         console.log( "hitting not found rating")
+         console.log('springLookup', springLookup, ' userLookup', userLookup, ' rating', rating)
+          const newRating = await SpringRating.create({springLookup: springLookup, userLookup: userLookup, rating: rating})
+          console.log('newRating', newRating)
+          return newRating
+        } else {
+
+          // If there is an existing rating, update it
+          console.log("hitting updating rating")
+          const updatedRating = await SpringRating.updateOne({springLookup: springLookup, userLookup: userLookup}, {rating: rating})
+          console.log('updatedRating', updatedRating)
+          return updatedRating
+        
+        }
+
+      } catch (err) {
+        console.log('error making spring rating adjustment: ', err)
+        return err
+      }
+    }
 
 
  
@@ -180,5 +214,5 @@ Mutation: {
 
 
 }
-
+}
 module.exports = resolvers;
