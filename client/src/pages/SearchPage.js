@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
+import Toast from 'react-bootstrap/Toast';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import SpringCard from '../components/springCard';
@@ -46,7 +47,9 @@ const mapSpringCards = (data) => {
   return (data?.filteredSprings?.map((spring) => {
 
     return (
+      <div className='mt-4'>
       <SpringCard spring={spring._id} />
+      </div>
     )
   })
   )

@@ -148,11 +148,14 @@ Mutation: {
               userToPost.favoriteSprings.pull(new ObjectId(springID));
               userToPost.save()
   
+              console.log("SPRING WAS UNFAVORITED")
               return {message: 'Your spring was unfavorited'}
           } else {
               userToPost.favoriteSprings.addToSet(springID);
               userToPost.save();
-              return {message: "Spring added successfully"}
+              console.log("SPRING WAS FAVORITED")
+              const springAdded =  await Spring.findById(springID)
+              return springAdded
           }
   
   
@@ -161,7 +164,8 @@ Mutation: {
   
           
       } catch (err) {
-          console.log(err)
+          console.log("AN ERROR OCCURED ADJUSTING YOUR FAVORITES" , err)
+          
           return {message: 'There was a problem adding this spring to your favorites'}
       }
     

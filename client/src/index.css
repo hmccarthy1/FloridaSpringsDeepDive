@@ -85,6 +85,10 @@ height: 20% !important;
   
 }
 
+.toast {
+  margin-right: 0px !important;
+}
+
 .bodyContent {
   width: 90vw !important;
 

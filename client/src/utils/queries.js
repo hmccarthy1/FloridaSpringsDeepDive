@@ -126,6 +126,8 @@ export const QUERY_USER = gql`
     singleUser(userID: $userID) {
   firstName
   lastName
+  
+  email
   favoriteSprings {
     _id
     springName

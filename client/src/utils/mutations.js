@@ -28,3 +28,31 @@ export const ADD_USER = gql`
   }
 `;
 
+export const adjustFavorite = gql`mutation AdjustFavorites($userId: ID!, $springId: ID!) {
+  adjustFavorites(userID: $userId, springID: $springId) {
+    _id
+    address
+    admission
+    amenities {
+      amenityDescription
+      amenityMedia {
+        Caption
+        imageURL
+        _id
+      }
+      _id
+      Cost
+      amenityType
+      amenityWebsite
+    }
+    springCounty
+    springDescription
+    springMedia {
+      Caption
+      _id
+      imageURL
+    }
+    springName
+    springState
+  }
+}`
