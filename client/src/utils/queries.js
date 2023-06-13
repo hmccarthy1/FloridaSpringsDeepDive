@@ -154,3 +154,11 @@ export const QUERY_USER = gql`
   }
   
   }`
+  export const getRating = gql`query Query($springLookup: ID!, $userLookup: ID!) {
+    getRating(springLookup: $springLookup, userLookup: $userLookup) {
+      _id
+      rating
+      springLookup
+      userLookup
+    }
+  }`

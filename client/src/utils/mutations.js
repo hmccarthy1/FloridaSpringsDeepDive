@@ -56,3 +56,16 @@ export const adjustFavorite = gql`mutation AdjustFavorites($userId: ID!, $spring
     springState
   }
 }`
+
+export const adjustSpringRating = gql`
+
+mutation Mutation($springLookup: ID!, $userLookup: ID!, $rating: Int!) {
+  adjustSpringRating(springLookup: $springLookup, userLookup: $userLookup, rating: $rating) {
+    _id
+    rating
+    springLookup
+    userLookup
+  }
+}
+
+`

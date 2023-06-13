@@ -52,6 +52,7 @@ const typeDefs = gql`
     rating: Int
   }
 
+  
 
   type Spring {
     _id: ID
@@ -80,6 +81,7 @@ const typeDefs = gql`
     amenity(amenityID: ID!): Amenity
     allSprings: [Spring]
     filteredSprings(amenitiesList: [String], springNameSearch: String): [Spring]
+    getRating(springLookup: ID!, userLookup: ID!): springRating
   }
 
 

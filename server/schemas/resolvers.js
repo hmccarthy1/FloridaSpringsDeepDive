@@ -102,7 +102,22 @@ const resolvers = {
         console.log(err)
         return err
       }
+    },
+    getRating: async (parent, {springLookup, userLookup}) => {
+      try {
+        const spring = await Spring.findOne({_id: springLookup});
+        console.log('spring', spring, '===================================================================================')
+        console.log('springLookup', springLookup, ' userLookup', userLookup)
+        const foundRating = await SpringRating.findOne({springLookup: springLookup, userLookup: userLookup});
+        console.log('foundRating', foundRating);
+        return foundRating
+
+      } catch (err) {
+        console.log('error getting rating: ', err)
+        return err
+      }
     }
+
 
 },
 

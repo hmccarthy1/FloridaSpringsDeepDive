@@ -9,10 +9,8 @@ function CreateToast(props) {
     const [toastVisibility, setToastVisibility] = useState('');
 
     const [showA, setShowA] = useState(true);
-  const [showB, setShowB] = useState(true);
 
   const toggleShowA = () => setShowA(!showA);
-  const toggleShowB = () => setShowB(!showB);
 
   return (
     <Row>
