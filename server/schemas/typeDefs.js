@@ -82,7 +82,9 @@ const typeDefs = gql`
 
   type Mutation {
     addUser(username: String!, email: String!, password: String!, firstName: String!, lastName: String!): Auth
-    login(email: String!, password: String!): Auth}
-`;
+    login(email: String!, password: String!): Auth
+    adjustFavorites(userID: ID!, springID: ID!): Spring
+  }
+    `;
 
 module.exports = typeDefs;

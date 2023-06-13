@@ -79,7 +79,7 @@ function Sidebar() {
 
   <Link to={
     
-    userProfile? ('/user/' + userProfile) : ('/signup')
+    userProfile? ('/user/' + userProfile) : ('/login')
     } style={linkStyles.style} className={linkStyles.classList}>
     <FontAwesomeIcon icon={faUser} size="lg" style={{ color: 'white', height: '100%' }} className='mr-3' />
   </Link>
@@ -91,7 +91,7 @@ function Sidebar() {
 
   <>
   <div className='divider' style={styles.divider}></div>
-  <Nav.Link href='/signup' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
+  <Nav.Link href='/login' ><FontAwesomeIcon icon={faUser} size="lg" style={styles.homeIcon} /></Nav.Link>
   <div className='divider'  style={styles.divider}></div>
   </>
 

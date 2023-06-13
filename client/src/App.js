@@ -18,6 +18,7 @@ import IndividualSpring from './pages/IndividualSpring';
 import IndividualAmenity from './pages/IndividualAmenity';
 import SearchPage from './pages/SearchPage';
 import ProfilePage from './pages/ProfilePage';
+import LoginPage from './pages/LoginPage';
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -72,15 +73,20 @@ function App() {
                 <Route
                   path='/spring/:springId/:amenityID'
                   element={<IndividualAmenity></IndividualAmenity>}/>
-                <Route
-                  path='/'
-                  element={<Home></Home>} />
                   <Route
                   path='/search'
                   element={<SearchPage></SearchPage>}/>
                   <Route
                   path='/user/:userID'
                   element={<ProfilePage></ProfilePage>}/>
+                  <Route 
+                  path='/Login'
+                  element={ <LoginPage></LoginPage>}/>
+                
+                
+                <Route
+                  path='/'
+                  element={<Home></Home>} />
               </Routes>
             </div>
           </div>

@@ -2,7 +2,9 @@ const { AuthenticationError } = require('apollo-server-express');
 const User = require('../models/User');
 const Spring = require('../models/Spring')
 const { signToken } = require('../utils/auth');
+const mongoose = require('mongoose');
 
+const { ObjectId } = require('mongodb');
 
 const resolvers = {
   Query: {
@@ -91,7 +93,7 @@ const resolvers = {
     singleUser: async (parent, {userID}) => {
      console.log('Hitting singleUser ')
       try {
-
+        console.log('User ID, ', userID)
         const foundUser = await User.findOne({_id: userID})
         console.log('foundUser', foundUser)
         return foundUser;
@@ -126,7 +128,52 @@ Mutation: {
       const token = signToken(user);
 
       return { token, user };
-    }}
+    },
+  
+    adjustFavorites: async (parent, {userID, springID}) => {
+
+   
+      console.log('HITTING TOP')
+      try {
+          console.log('HITTING')
+          const userToPost = await User.findById(userID);
+          console.log(userToPost.favoriteSprings);
+          const found = false
+  
+          if (
+          userToPost.favoriteSprings.some(function (springId) {
+              return springId.equals( new ObjectId(springID))  
+          })  ) {
+              
+              userToPost.favoriteSprings.pull(new ObjectId(springID));
+              userToPost.save()
+  
+              return {message: 'Your spring was unfavorited'}
+          } else {
+              userToPost.favoriteSprings.addToSet(springID);
+              userToPost.save();
+              return {message: "Spring added successfully"}
+          }
+  
+  
+             
+          
+  
+          
+      } catch (err) {
+          console.log(err)
+          return {message: 'There was a problem adding this spring to your favorites'}
+      }
+    
+  }
+  
+
+  }
+
+
+ 
+
+
 
 }
 

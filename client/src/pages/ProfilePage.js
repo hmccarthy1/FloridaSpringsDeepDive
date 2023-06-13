@@ -14,6 +14,10 @@ import AmenitiesAccordion from '../components/AmenitiesAccordion';
 const ProfilePage = (props) => {
 
     const {userID } = useParams();
+    const tokenID = Auth?.getProfile()?.data._id;
+    const IDsMatch = userID === tokenID;
+    console.log('IDs match?', userID === tokenID)
+
     console.log('userID profile page', userID)
     const { loading, data } = useQuery(singleUser, {variables: {userID: userID}} ); 
     console.log('data profile page', data)
@@ -33,11 +37,16 @@ const ProfilePage = (props) => {
         <>
         
 <h1>Profile Page</h1>
-        {data? 
+        {IDsMatch? 
 
 
-(
-    mapFavorites(data)
+(   
+<>
+    <div className='row col-12 justify-content-end'>
+    <Button className='align-self-end col-3' id='logoutButton' onClick={Auth.logout}>Logout</Button>
+    </div>
+    {mapFavorites(data)}
+</>
 ):(<h1>No Profile Found</h1>) }
 
        
