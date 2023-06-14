@@ -31,3 +31,10 @@ At the original MVP of this app, there are several available features
 - I plan on adding the ability to post reviews for springs as a whole, and for particular amenities.
 - The donate button currently doesn't lead anywhere, I will want to create the ability to donate before pushing it to the public
 - Custom sorting depending on your ratings / preferences, for example on my favorites list they should be sorted in descending order based on my rating
+
+
+## Links
+
+Github repo - https://github.com/hmccarthy1/FloridaSpringsDeepDive
+
+Live site - https://floridaspringsdeepdive.herokuapp.com/
