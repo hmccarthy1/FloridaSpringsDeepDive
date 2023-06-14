@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { useMutation } from '@apollo/client';
 import { ADD_USER, LOGIN_USER } from '../utils/mutations';
+import Nav from 'react-bootstrap/Nav'
+
 
 import Auth from '../utils/auth';
 
@@ -72,6 +74,9 @@ const LoginPage = (props) => {
             <Button variant="primary" type="submit" className='mt-3 mb-3 align-self-start ml-3 btn btn-lg btn-primary' style={styles.buttons} id='signupButton'>
               Sign in
             </Button>
+
+            <div><Nav.Link className='text-white text-left mb-2' href='/signup'>Not a user yet? Sign up here</Nav.Link> </div>
+
 
           </div>
         </Form>
